@@ -66,9 +66,6 @@ local anticheatremover = Instance.new("Frame")
 local TextLabel_19 = Instance.new("TextLabel")
 local OK_18 = Instance.new("TextButton")
 local TextLabel_20 = Instance.new("TextLabel")
-local fakelagv1 = Instance.new("Frame")
-local TextLabel_21 = Instance.new("TextLabel")
-local OK_19 = Instance.new("TextButton")
 local main_2 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local hi = Instance.new("TextLabel")
@@ -82,14 +79,25 @@ local UICorner_4 = Instance.new("UICorner")
 local page2 = Instance.new("Frame")
 local ScrollingFrame_2 = Instance.new("ScrollingFrame")
 local fakelagv1ultra = Instance.new("Frame")
+local TextLabel_21 = Instance.new("TextLabel")
+local OK_19 = Instance.new("TextButton")
+local fakelagv1_3fps = Instance.new("Frame")
 local TextLabel_22 = Instance.new("TextLabel")
 local OK_20 = Instance.new("TextButton")
-local fakelagv1_3fps = Instance.new("Frame")
+local fakelagv1Wild = Instance.new("Frame")
 local TextLabel_23 = Instance.new("TextLabel")
 local OK_21 = Instance.new("TextButton")
-local fakelagv1Wild = Instance.new("Frame")
+local invertgrav = Instance.new("Frame")
 local TextLabel_24 = Instance.new("TextLabel")
 local OK_22 = Instance.new("TextButton")
+local fakelagv1 = Instance.new("Frame")
+local TextLabel_25 = Instance.new("TextLabel")
+local OK_23 = Instance.new("TextButton")
+local lol = Instance.new("Frame")
+local TextLabel_26 = Instance.new("TextLabel")
+local OK_24 = Instance.new("TextButton")
+local guiopen = Instance.new("ImageButton")
+local TextLabel_27 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -103,6 +111,7 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.213367939, 0, 0.0952115431, 0)
 Frame.Size = UDim2.new(0, 710, 0, 421)
+Frame.Visible = false
 
 UICorner.Parent = Frame
 
@@ -137,7 +146,6 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
 ScrollingFrame.Size = UDim2.new(0, 620, 0, 342)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 364)
 
 INFJUMP.Name = "INFJUMP"
 INFJUMP.Parent = ScrollingFrame
@@ -203,7 +211,7 @@ ESP.Name = "ESP"
 ESP.Parent = ScrollingFrame
 ESP.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
 ESP.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ESP.Position = UDim2.new(0.964442372, 0, 0.0694934502, 0)
+ESP.Position = UDim2.new(0.0370230414, 0, 0.868603468, 0)
 ESP.Size = UDim2.new(0, 178, 0, 101)
 ESP.Style = Enum.FrameStyle.RobloxRound
 
@@ -724,38 +732,6 @@ TextLabel_20.TextScaled = true
 TextLabel_20.TextSize = 28.000
 TextLabel_20.TextWrapped = true
 
-fakelagv1.Name = "fakelagv1"
-fakelagv1.Parent = ScrollingFrame
-fakelagv1.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-fakelagv1.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fakelagv1.Position = UDim2.new(0.0345705077, 0, 0.851541638, 0)
-fakelagv1.Size = UDim2.new(0, 178, 0, 101)
-fakelagv1.Style = Enum.FrameStyle.RobloxRound
-
-TextLabel_21.Parent = fakelagv1
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.BackgroundTransparency = 2.000
-TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_21.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_21.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_21.Font = Enum.Font.Cartoon
-TextLabel_21.Text = "fake lag v1"
-TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.TextScaled = true
-TextLabel_21.TextSize = 28.000
-TextLabel_21.TextWrapped = true
-
-OK_19.Name = "OK"
-OK_19.Parent = fakelagv1
-OK_19.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_19.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_19.Size = UDim2.new(0, 104, 0, 41)
-OK_19.Font = Enum.Font.Cartoon
-OK_19.Text = "APPLY"
-OK_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_19.TextSize = 20.000
-
 main_2.Name = "main"
 main_2.Parent = Frame
 main_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -901,25 +877,57 @@ fakelagv1ultra.Name = "fakelagv1ultra"
 fakelagv1ultra.Parent = ScrollingFrame_2
 fakelagv1ultra.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
 fakelagv1ultra.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fakelagv1ultra.Position = UDim2.new(0.349086642, 0, 0.0231098384, 0)
+fakelagv1ultra.Position = UDim2.new(0.363602757, 0, 0.0295370892, 0)
 fakelagv1ultra.Size = UDim2.new(0, 178, 0, 101)
 fakelagv1ultra.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_22.Parent = fakelagv1ultra
+TextLabel_21.Parent = fakelagv1ultra
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 2.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_21.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_21.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_21.Font = Enum.Font.Cartoon
+TextLabel_21.Text = "fake 0.1 fps lag v1"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 28.000
+TextLabel_21.TextWrapped = true
+
+OK_19.Name = "OK"
+OK_19.Parent = fakelagv1ultra
+OK_19.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_19.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_19.Size = UDim2.new(0, 104, 0, 41)
+OK_19.Font = Enum.Font.Cartoon
+OK_19.Text = "APPLY"
+OK_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_19.TextSize = 20.000
+
+fakelagv1_3fps.Name = "fakelagv1_3fps"
+fakelagv1_3fps.Parent = ScrollingFrame_2
+fakelagv1_3fps.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1_3fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1_3fps.Position = UDim2.new(0.0281188972, 0, 0.0388091691, 0)
+fakelagv1_3fps.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1_3fps.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_22.Parent = fakelagv1_3fps
 TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_22.BackgroundTransparency = 2.000
 TextLabel_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_22.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
 TextLabel_22.Size = UDim2.new(0, 101, 0, 38)
 TextLabel_22.Font = Enum.Font.Cartoon
-TextLabel_22.Text = "fake 0.1 fps lag v1"
+TextLabel_22.Text = "fake 3 fps lag v1"
 TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_22.TextScaled = true
 TextLabel_22.TextSize = 28.000
 TextLabel_22.TextWrapped = true
 
 OK_20.Name = "OK"
-OK_20.Parent = fakelagv1ultra
+OK_20.Parent = fakelagv1_3fps
 OK_20.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
 OK_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OK_20.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
@@ -929,29 +937,29 @@ OK_20.Text = "APPLY"
 OK_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_20.TextSize = 20.000
 
-fakelagv1_3fps.Name = "fakelagv1_3fps"
-fakelagv1_3fps.Parent = ScrollingFrame_2
-fakelagv1_3fps.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-fakelagv1_3fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fakelagv1_3fps.Position = UDim2.new(0.684570491, 0, 0.024314478, 0)
-fakelagv1_3fps.Size = UDim2.new(0, 178, 0, 101)
-fakelagv1_3fps.Style = Enum.FrameStyle.RobloxRound
+fakelagv1Wild.Name = "fakelagv1Wild"
+fakelagv1Wild.Parent = ScrollingFrame_2
+fakelagv1Wild.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1Wild.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1Wild.Position = UDim2.new(0.368441463, 0, 0.190990075, 0)
+fakelagv1Wild.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1Wild.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_23.Parent = fakelagv1_3fps
+TextLabel_23.Parent = fakelagv1Wild
 TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_23.BackgroundTransparency = 2.000
 TextLabel_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_23.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
 TextLabel_23.Size = UDim2.new(0, 101, 0, 38)
 TextLabel_23.Font = Enum.Font.Cartoon
-TextLabel_23.Text = "fake 3 fps lag v1"
+TextLabel_23.Text = "fake 0.01 fps lag v1"
 TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_23.TextScaled = true
 TextLabel_23.TextSize = 28.000
 TextLabel_23.TextWrapped = true
 
 OK_21.Name = "OK"
-OK_21.Parent = fakelagv1_3fps
+OK_21.Parent = fakelagv1Wild
 OK_21.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
 OK_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OK_21.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
@@ -961,29 +969,29 @@ OK_21.Text = "APPLY"
 OK_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_21.TextSize = 20.000
 
-fakelagv1Wild.Name = "fakelagv1Wild"
-fakelagv1Wild.Parent = ScrollingFrame_2
-fakelagv1Wild.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-fakelagv1Wild.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fakelagv1Wild.Position = UDim2.new(0.0313447043, 0, 0.0155425491, 0)
-fakelagv1Wild.Size = UDim2.new(0, 178, 0, 101)
-fakelagv1Wild.Style = Enum.FrameStyle.RobloxRound
+invertgrav.Name = "invertgrav"
+invertgrav.Parent = ScrollingFrame_2
+invertgrav.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+invertgrav.BorderColor3 = Color3.fromRGB(27, 42, 53)
+invertgrav.Position = UDim2.new(0.689409196, 0, 0.196391866, 0)
+invertgrav.Size = UDim2.new(0, 178, 0, 101)
+invertgrav.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_24.Parent = fakelagv1Wild
+TextLabel_24.Parent = invertgrav
 TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_24.BackgroundTransparency = 2.000
 TextLabel_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_24.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
 TextLabel_24.Size = UDim2.new(0, 101, 0, 38)
 TextLabel_24.Font = Enum.Font.Cartoon
-TextLabel_24.Text = "fake 0.01 fps lag v1"
+TextLabel_24.Text = "Invert gravity"
 TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_24.TextScaled = true
 TextLabel_24.TextSize = 28.000
 TextLabel_24.TextWrapped = true
 
 OK_22.Name = "OK"
-OK_22.Parent = fakelagv1Wild
+OK_22.Parent = invertgrav
 OK_22.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
 OK_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OK_22.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
@@ -993,9 +1001,100 @@ OK_22.Text = "APPLY"
 OK_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_22.TextSize = 20.000
 
+fakelagv1.Name = "fakelagv1"
+fakelagv1.Parent = ScrollingFrame_2
+fakelagv1.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1.Position = UDim2.new(0.686183393, 0, 0.0219471361, 0)
+fakelagv1.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_25.Parent = fakelagv1
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 2.000
+TextLabel_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_25.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_25.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_25.Font = Enum.Font.Cartoon
+TextLabel_25.Text = "fake lag v1"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 28.000
+TextLabel_25.TextWrapped = true
+
+OK_23.Name = "OK"
+OK_23.Parent = fakelagv1
+OK_23.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_23.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_23.Size = UDim2.new(0, 104, 0, 41)
+OK_23.Font = Enum.Font.Cartoon
+OK_23.Text = "APPLY"
+OK_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_23.TextSize = 20.000
+
+lol.Name = "lol"
+lol.Parent = ScrollingFrame_2
+lol.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+lol.BorderColor3 = Color3.fromRGB(27, 42, 53)
+lol.Position = UDim2.new(0.0297317989, 0, 0.197814763, 0)
+lol.Size = UDim2.new(0, 178, 0, 101)
+lol.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_26.Parent = lol
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 2.000
+TextLabel_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_26.Position = UDim2.new(-0.0620609224, 0, -0.0149590522, 0)
+TextLabel_26.Size = UDim2.new(0, 179, 0, 38)
+TextLabel_26.Font = Enum.Font.Cartoon
+TextLabel_26.Text = "refresh (refresh is instant reset character but instead killing it replaces old character to new for example equipped new avatar, use refresh)"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 28.000
+TextLabel_26.TextWrapped = true
+
+OK_24.Name = "OK"
+OK_24.Parent = lol
+OK_24.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_24.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_24.Size = UDim2.new(0, 104, 0, 41)
+OK_24.Font = Enum.Font.Cartoon
+OK_24.Text = "APPLY"
+OK_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_24.TextSize = 20.000
+
+guiopen.Name = "guiopen"
+guiopen.Parent = Main
+guiopen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guiopen.BackgroundTransparency = 1.000
+guiopen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+guiopen.BorderSizePixel = 0
+guiopen.Position = UDim2.new(0.899716139, 0, 0.25323382, 0)
+guiopen.Size = UDim2.new(0, 73, 0, 75)
+guiopen.ZIndex = 999999999
+guiopen.Image = "http://www.roblox.com/asset/?id=6820357899"
+guiopen.ImageTransparency = 0.300
+
+TextLabel_27.Parent = guiopen
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_27.BorderSizePixel = 0
+TextLabel_27.Position = UDim2.new(0.126374543, 0, 0.126376748, 0)
+TextLabel_27.Size = UDim2.new(0, 54, 0, 54)
+TextLabel_27.ZIndex = -1
+TextLabel_27.Font = Enum.Font.SourceSans
+TextLabel_27.Text = "Untitled admin script hack frfr"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 14.000
+TextLabel_27.TextWrapped = true
+
 -- Scripts:
 
-local function NAGUQOA_fake_script() -- Frame.Drag 
+local function VVPOGMA_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1038,8 +1137,8 @@ local function NAGUQOA_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(NAGUQOA_fake_script)()
-local function WMNJBL_fake_script() -- OK.LocalScript 
+coroutine.wrap(VVPOGMA_fake_script)()
+local function YLJDZTN_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	local UIS = game:GetService("UserInputService")
@@ -1093,8 +1192,8 @@ local function WMNJBL_fake_script() -- OK.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(WMNJBL_fake_script)()
-local function YNFXAR_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(YLJDZTN_fake_script)()
+local function DKLKEE_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1110,8 +1209,8 @@ local function YNFXAR_fake_script() -- OK_2.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(YNFXAR_fake_script)()
-local function VLTJZD_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(DKLKEE_fake_script)()
+local function BLVBGJS_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	local Players = game:GetService("Players")
@@ -1137,8 +1236,8 @@ local function VLTJZD_fake_script() -- OK_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(VLTJZD_fake_script)()
-local function VAESZ_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(BLVBGJS_fake_script)()
+local function TBOUD_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1147,8 +1246,8 @@ local function VAESZ_fake_script() -- OK_4.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(VAESZ_fake_script)()
-local function FFJFBG_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(TBOUD_fake_script)()
+local function DIERPN_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	local Players = game:GetService("Players")
@@ -1216,8 +1315,8 @@ local function FFJFBG_fake_script() -- OK_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(FFJFBG_fake_script)()
-local function YBIUVH_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(DIERPN_fake_script)()
+local function NZNWN_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1227,8 +1326,8 @@ local function YBIUVH_fake_script() -- OK_6.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(YBIUVH_fake_script)()
-local function NZUCQFX_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(NZNWN_fake_script)()
+local function DIGHA_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1236,8 +1335,8 @@ local function NZUCQFX_fake_script() -- OK_7.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(NZUCQFX_fake_script)()
-local function EFMMA_fake_script() -- OK_8.LocalScript 
+coroutine.wrap(DIGHA_fake_script)()
+local function ROOTRHO_fake_script() -- OK_8.LocalScript 
 	local script = Instance.new('LocalScript', OK_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1255,8 +1354,8 @@ local function EFMMA_fake_script() -- OK_8.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(EFMMA_fake_script)()
-local function HMYUHR_fake_script() -- OK_9.LocalScript 
+coroutine.wrap(ROOTRHO_fake_script)()
+local function YLZMBA_fake_script() -- OK_9.LocalScript 
 	local script = Instance.new('LocalScript', OK_9)
 
 	local Players = game:GetService("Players")
@@ -1285,8 +1384,8 @@ local function HMYUHR_fake_script() -- OK_9.LocalScript
 	
 	
 end
-coroutine.wrap(HMYUHR_fake_script)()
-local function JBPMYJ_fake_script() -- OK_10.LocalScript 
+coroutine.wrap(YLZMBA_fake_script)()
+local function DAQFZ_fake_script() -- OK_10.LocalScript 
 	local script = Instance.new('LocalScript', OK_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1296,8 +1395,8 @@ local function JBPMYJ_fake_script() -- OK_10.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(JBPMYJ_fake_script)()
-local function ZRCSV_fake_script() -- OK_11.LocalScript 
+coroutine.wrap(DAQFZ_fake_script)()
+local function XVGA_fake_script() -- OK_11.LocalScript 
 	local script = Instance.new('LocalScript', OK_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1315,8 +1414,8 @@ local function ZRCSV_fake_script() -- OK_11.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(ZRCSV_fake_script)()
-local function KHIOWP_fake_script() -- OK_12.LocalScript 
+coroutine.wrap(XVGA_fake_script)()
+local function WGTORVE_fake_script() -- OK_12.LocalScript 
 	local script = Instance.new('LocalScript', OK_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1333,8 +1432,8 @@ local function KHIOWP_fake_script() -- OK_12.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(KHIOWP_fake_script)()
-local function VXNWVMQ_fake_script() -- OK_13.LocalScript 
+coroutine.wrap(WGTORVE_fake_script)()
+local function QCCABVB_fake_script() -- OK_13.LocalScript 
 	local script = Instance.new('LocalScript', OK_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1343,13 +1442,13 @@ local function VXNWVMQ_fake_script() -- OK_13.LocalScript
 		repeat task.wait() until plr.Character
 		local hum = plr.Character:WaitForChild("Humanoid")
 		local tk = plr.Character
-		hum:TakeDamage(6969699696696969)
+		hum:TakeDamage(math.huge)
 		tk:breakJoints()
 		
 	end)
 end
-coroutine.wrap(VXNWVMQ_fake_script)()
-local function KHRTVFS_fake_script() -- OK_14.LocalScript 
+coroutine.wrap(QCCABVB_fake_script)()
+local function VZQWI_fake_script() -- OK_14.LocalScript 
 	local script = Instance.new('LocalScript', OK_14)
 
 	local Players = game:GetService("Players")
@@ -1387,8 +1486,8 @@ local function KHRTVFS_fake_script() -- OK_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(KHRTVFS_fake_script)()
-local function WRIWCO_fake_script() -- OK_15.LocalScript 
+coroutine.wrap(VZQWI_fake_script)()
+local function ZJLE_fake_script() -- OK_15.LocalScript 
 	local script = Instance.new('LocalScript', OK_15)
 
 	local Players = game:GetService("Players")
@@ -1406,8 +1505,8 @@ local function WRIWCO_fake_script() -- OK_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(WRIWCO_fake_script)()
-local function BQIN_fake_script() -- OK_16.LocalScript 
+coroutine.wrap(ZJLE_fake_script)()
+local function UAZQEHW_fake_script() -- OK_16.LocalScript 
 	local script = Instance.new('LocalScript', OK_16)
 
 	local button = script.Parent
@@ -1424,8 +1523,8 @@ local function BQIN_fake_script() -- OK_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(BQIN_fake_script)()
-local function TJMZSD_fake_script() -- OK_17.LocalScript 
+coroutine.wrap(UAZQEHW_fake_script)()
+local function LWJBQGS_fake_script() -- OK_17.LocalScript 
 	local script = Instance.new('LocalScript', OK_17)
 
 	local Players = game:GetService("Players")
@@ -1443,8 +1542,8 @@ local function TJMZSD_fake_script() -- OK_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(TJMZSD_fake_script)()
-local function YTQVU_fake_script() -- OK_18.LocalScript 
+coroutine.wrap(LWJBQGS_fake_script)()
+local function KFTASD_fake_script() -- OK_18.LocalScript 
 	local script = Instance.new('LocalScript', OK_18)
 
 	local Players = game:GetService("Players")
@@ -1507,61 +1606,8 @@ local function YTQVU_fake_script() -- OK_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(YTQVU_fake_script)()
-local function JNCX_fake_script() -- OK_19.LocalScript 
-	local script = Instance.new('LocalScript', OK_19)
-
-	local button = script.Parent
-	local player = game.Players.LocalPlayer
-	
-	-- Flag to stop the loop when character resets
-	local stopLag = false
-	
-	-- Function to start the fake lag loop
-	local function startFakeLag(character)
-		local rootPart = character:FindFirstChild("HumanoidRootPart")
-		if not rootPart then return end
-	
-		stopLag = false
-	
-		-- Run the loop in a separate thread
-		task.spawn(function()
-			while rootPart and rootPart.Parent == character and not stopLag do
-				rootPart.Anchored = true
-				task.wait(0.025) -- Half of 0.05s
-	
-				rootPart.Anchored = false
-				task.wait(0.025)
-			end
-	
-			-- Ensure it's unanchored when stopping
-			if rootPart then
-				rootPart.Anchored = false
-			end
-		end)
-	end
-	
-	-- On button click, start fake lag
-	button.MouseButton1Click:Connect(function()
-		local character = player.Character or player.CharacterAdded:Wait()
-		startFakeLag(character)
-	end)
-	
-	-- On character respawn, stop lag and reset state
-	player.CharacterAdded:Connect(function(newCharacter)
-		stopLag = true -- Stop any old loop
-		newCharacter:WaitForChild("HumanoidRootPart", 5)
-	
-		-- Just in case something was left anchored
-		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
-		if rootPart then
-			rootPart.Anchored = false
-		end
-	end)
-	
-end
-coroutine.wrap(JNCX_fake_script)()
-local function DMPMXK_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(KFTASD_fake_script)()
+local function FIYU_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', main_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1569,25 +1615,25 @@ local function DMPMXK_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON
 	end)
 	                
 end
-coroutine.wrap(DMPMXK_fake_script)()
-local function GKVS_fake_script() -- hi.LocalScript 
+coroutine.wrap(FIYU_fake_script)()
+local function VNJD_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(GKVS_fake_script)()
-local function NELX_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(VNJD_fake_script)()
+local function PEYUSO_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', Xclose)
 
 	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent:Destroy()
+		script.Parent.Parent.Visible = false
 		
 	end)
 	                
 end
-coroutine.wrap(NELX_fake_script)()
-local function IWNJJ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(PEYUSO_fake_script)()
+local function CPEC_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1595,9 +1641,9 @@ local function IWNJJ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(IWNJJ_fake_script)()
-local function PNGY_fake_script() -- OK_20.LocalScript 
-	local script = Instance.new('LocalScript', OK_20)
+coroutine.wrap(CPEC_fake_script)()
+local function DRVHQIO_fake_script() -- OK_19.LocalScript 
+	local script = Instance.new('LocalScript', OK_19)
 
 	local button = script.Parent
 	local player = game.Players.LocalPlayer
@@ -1648,9 +1694,9 @@ local function PNGY_fake_script() -- OK_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(PNGY_fake_script)()
-local function KKCBY_fake_script() -- OK_21.LocalScript 
-	local script = Instance.new('LocalScript', OK_21)
+coroutine.wrap(DRVHQIO_fake_script)()
+local function TNUXT_fake_script() -- OK_20.LocalScript 
+	local script = Instance.new('LocalScript', OK_20)
 
 	local button = script.Parent
 	local player = game.Players.LocalPlayer
@@ -1701,9 +1747,9 @@ local function KKCBY_fake_script() -- OK_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(KKCBY_fake_script)()
-local function GSAKH_fake_script() -- OK_22.LocalScript 
-	local script = Instance.new('LocalScript', OK_22)
+coroutine.wrap(TNUXT_fake_script)()
+local function DZIUZ_fake_script() -- OK_21.LocalScript 
+	local script = Instance.new('LocalScript', OK_21)
 
 	local button = script.Parent
 	local player = game.Players.LocalPlayer
@@ -1754,4 +1800,122 @@ local function GSAKH_fake_script() -- OK_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(GSAKH_fake_script)()
+coroutine.wrap(DZIUZ_fake_script)()
+local function AWIPX_fake_script() -- OK_22.LocalScript 
+	local script = Instance.new('LocalScript', OK_22)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	local runService = game:GetService("RunService")
+	
+	local inverted = false
+	local applyVelocityConnection
+	
+	-- Cleanup on respawn
+	player.CharacterAdded:Connect(function(newChar)
+		inverted = false
+		if applyVelocityConnection then
+			applyVelocityConnection:Disconnect()
+			applyVelocityConnection = nil
+		end
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		if inverted then return end -- Prevent multiple activations
+	
+		local character = player.Character
+		if not character then return end
+	
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		inverted = true
+	
+		applyVelocityConnection = runService.Heartbeat:Connect(function()
+			if not rootPart then return end
+	
+			-- Set upward velocity
+			-- Adjust magnitude for stronger effect
+			rootPart.AssemblyLinearVelocity = Vector3.new(
+				rootPart.AssemblyLinearVelocity.X,
+				50,  -- Upward speed
+				rootPart.AssemblyLinearVelocity.Z
+			)
+		end)
+	end)
+	
+end
+coroutine.wrap(AWIPX_fake_script)()
+local function HBJBEEA_fake_script() -- OK_23.LocalScript 
+	local script = Instance.new('LocalScript', OK_23)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Flag to stop the loop when character resets
+	local stopLag = false
+	
+	-- Function to start the fake lag loop
+	local function startFakeLag(character)
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		stopLag = false
+	
+		-- Run the loop in a separate thread
+		task.spawn(function()
+			while rootPart and rootPart.Parent == character and not stopLag do
+				rootPart.Anchored = true
+				task.wait(0.025) -- Half of 0.05s
+	
+				rootPart.Anchored = false
+				task.wait(0.025)
+			end
+	
+			-- Ensure it's unanchored when stopping
+			if rootPart then
+				rootPart.Anchored = false
+			end
+		end)
+	end
+	
+	-- On button click, start fake lag
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		startFakeLag(character)
+	end)
+	
+	-- On character respawn, stop lag and reset state
+	player.CharacterAdded:Connect(function(newCharacter)
+		stopLag = true -- Stop any old loop
+		newCharacter:WaitForChild("HumanoidRootPart", 5)
+	
+		-- Just in case something was left anchored
+		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
+		if rootPart then
+			rootPart.Anchored = false
+		end
+	end)
+	
+end
+coroutine.wrap(HBJBEEA_fake_script)()
+local function RIJNK_fake_script() -- OK_24.LocalScript 
+	local script = Instance.new('LocalScript', OK_24)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		player:LoadCharacter()
+	end)
+end
+coroutine.wrap(RIJNK_fake_script)()
+local function FDOF_fake_script() -- guiopen.oc 
+	local script = Instance.new('LocalScript', guiopen)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+	end)
+	                
+end
+coroutine.wrap(FDOF_fake_script)()
