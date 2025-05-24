@@ -66,6 +66,9 @@ local anticheatremover = Instance.new("Frame")
 local TextLabel_19 = Instance.new("TextLabel")
 local OK_18 = Instance.new("TextButton")
 local TextLabel_20 = Instance.new("TextLabel")
+local fakelagv1 = Instance.new("Frame")
+local TextLabel_21 = Instance.new("TextLabel")
+local OK_19 = Instance.new("TextButton")
 local main_2 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local hi = Instance.new("TextLabel")
@@ -74,6 +77,19 @@ local Xclose = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local info_2 = Instance.new("TextLabel")
 local info_3 = Instance.new("TextLabel")
+local p2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local page2 = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local fakelagv1ultra = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local OK_20 = Instance.new("TextButton")
+local fakelagv1_3fps = Instance.new("Frame")
+local TextLabel_23 = Instance.new("TextLabel")
+local OK_21 = Instance.new("TextButton")
+local fakelagv1Wild = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local OK_22 = Instance.new("TextButton")
 
 --Properties:
 
@@ -85,7 +101,7 @@ Frame.Parent = Main
 Frame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.483115494, 0, 0.367845297, 0)
+Frame.Position = UDim2.new(0.213367939, 0, 0.0952115431, 0)
 Frame.Size = UDim2.new(0, 710, 0, 421)
 
 UICorner.Parent = Frame
@@ -708,6 +724,38 @@ TextLabel_20.TextScaled = true
 TextLabel_20.TextSize = 28.000
 TextLabel_20.TextWrapped = true
 
+fakelagv1.Name = "fakelagv1"
+fakelagv1.Parent = ScrollingFrame
+fakelagv1.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1.Position = UDim2.new(0.0345705077, 0, 0.851541638, 0)
+fakelagv1.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_21.Parent = fakelagv1
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 2.000
+TextLabel_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_21.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_21.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_21.Font = Enum.Font.Cartoon
+TextLabel_21.Text = "fake lag v1"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 28.000
+TextLabel_21.TextWrapped = true
+
+OK_19.Name = "OK"
+OK_19.Parent = fakelagv1
+OK_19.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_19.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_19.Size = UDim2.new(0, 104, 0, 41)
+OK_19.Font = Enum.Font.Cartoon
+OK_19.Text = "APPLY"
+OK_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_19.TextSize = 20.000
+
 main_2.Name = "main"
 main_2.Parent = Frame
 main_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -718,7 +766,7 @@ main_2.Position = UDim2.new(0, 0, 0.140142515, 0)
 main_2.Size = UDim2.new(0, 60, 0, 50)
 main_2.ZIndex = 2
 main_2.Font = Enum.Font.SourceSans
-main_2.Text = "Main"
+main_2.Text = "Main (page 1)"
 main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 main_2.TextScaled = true
 main_2.TextSize = 14.000
@@ -812,9 +860,142 @@ info_3.TextSize = 14.000
 info_3.TextStrokeTransparency = 0.000
 info_3.TextWrapped = true
 
+p2.Name = "p2"
+p2.Parent = Frame
+p2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+p2.BackgroundTransparency = 0.600
+p2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+p2.BorderSizePixel = 0
+p2.Position = UDim2.new(0, 0, 0.275534451, 0)
+p2.Size = UDim2.new(0, 60, 0, 50)
+p2.ZIndex = 2
+p2.Font = Enum.Font.SourceSans
+p2.Text = "page 2"
+p2.TextColor3 = Color3.fromRGB(255, 255, 255)
+p2.TextScaled = true
+p2.TextSize = 14.000
+p2.TextWrapped = true
+
+UICorner_4.Parent = p2
+
+page2.Name = "page2"
+page2.Parent = Frame
+page2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+page2.BorderSizePixel = 0
+page2.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
+page2.Size = UDim2.new(0, 635, 0, 353)
+page2.Visible = false
+page2.ZIndex = 4
+
+ScrollingFrame_2.Parent = page2
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame_2.BorderSizePixel = 0
+ScrollingFrame_2.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 620, 0, 342)
+
+fakelagv1ultra.Name = "fakelagv1ultra"
+fakelagv1ultra.Parent = ScrollingFrame_2
+fakelagv1ultra.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1ultra.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1ultra.Position = UDim2.new(0.349086642, 0, 0.0231098384, 0)
+fakelagv1ultra.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1ultra.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_22.Parent = fakelagv1ultra
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 2.000
+TextLabel_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_22.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_22.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_22.Font = Enum.Font.Cartoon
+TextLabel_22.Text = "fake 0.1 fps lag v1"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 28.000
+TextLabel_22.TextWrapped = true
+
+OK_20.Name = "OK"
+OK_20.Parent = fakelagv1ultra
+OK_20.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_20.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_20.Size = UDim2.new(0, 104, 0, 41)
+OK_20.Font = Enum.Font.Cartoon
+OK_20.Text = "APPLY"
+OK_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_20.TextSize = 20.000
+
+fakelagv1_3fps.Name = "fakelagv1_3fps"
+fakelagv1_3fps.Parent = ScrollingFrame_2
+fakelagv1_3fps.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1_3fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1_3fps.Position = UDim2.new(0.684570491, 0, 0.024314478, 0)
+fakelagv1_3fps.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1_3fps.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_23.Parent = fakelagv1_3fps
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 2.000
+TextLabel_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_23.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_23.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_23.Font = Enum.Font.Cartoon
+TextLabel_23.Text = "fake 3 fps lag v1"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 28.000
+TextLabel_23.TextWrapped = true
+
+OK_21.Name = "OK"
+OK_21.Parent = fakelagv1_3fps
+OK_21.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_21.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_21.Size = UDim2.new(0, 104, 0, 41)
+OK_21.Font = Enum.Font.Cartoon
+OK_21.Text = "APPLY"
+OK_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_21.TextSize = 20.000
+
+fakelagv1Wild.Name = "fakelagv1Wild"
+fakelagv1Wild.Parent = ScrollingFrame_2
+fakelagv1Wild.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+fakelagv1Wild.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fakelagv1Wild.Position = UDim2.new(0.0313447043, 0, 0.0155425491, 0)
+fakelagv1Wild.Size = UDim2.new(0, 178, 0, 101)
+fakelagv1Wild.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_24.Parent = fakelagv1Wild
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 2.000
+TextLabel_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_24.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_24.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_24.Font = Enum.Font.Cartoon
+TextLabel_24.Text = "fake 0.01 fps lag v1"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 28.000
+TextLabel_24.TextWrapped = true
+
+OK_22.Name = "OK"
+OK_22.Parent = fakelagv1Wild
+OK_22.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_22.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_22.Size = UDim2.new(0, 104, 0, 41)
+OK_22.Font = Enum.Font.Cartoon
+OK_22.Text = "APPLY"
+OK_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_22.TextSize = 20.000
+
 -- Scripts:
 
-local function CULPIXI_fake_script() -- Frame.Drag 
+local function NAGUQOA_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -857,8 +1038,8 @@ local function CULPIXI_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(CULPIXI_fake_script)()
-local function HJTIMZ_fake_script() -- OK.LocalScript 
+coroutine.wrap(NAGUQOA_fake_script)()
+local function WMNJBL_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	local UIS = game:GetService("UserInputService")
@@ -912,8 +1093,8 @@ local function HJTIMZ_fake_script() -- OK.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(HJTIMZ_fake_script)()
-local function OLQJ_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(WMNJBL_fake_script)()
+local function YNFXAR_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -929,8 +1110,8 @@ local function OLQJ_fake_script() -- OK_2.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(OLQJ_fake_script)()
-local function JIUGC_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(YNFXAR_fake_script)()
+local function VLTJZD_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	local Players = game:GetService("Players")
@@ -956,8 +1137,8 @@ local function JIUGC_fake_script() -- OK_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(JIUGC_fake_script)()
-local function WHYOQHC_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(VLTJZD_fake_script)()
+local function VAESZ_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -966,8 +1147,8 @@ local function WHYOQHC_fake_script() -- OK_4.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(WHYOQHC_fake_script)()
-local function TIIBHE_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(VAESZ_fake_script)()
+local function FFJFBG_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	local Players = game:GetService("Players")
@@ -1035,8 +1216,8 @@ local function TIIBHE_fake_script() -- OK_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(TIIBHE_fake_script)()
-local function UAGE_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(FFJFBG_fake_script)()
+local function YBIUVH_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1046,8 +1227,8 @@ local function UAGE_fake_script() -- OK_6.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(UAGE_fake_script)()
-local function IVDWP_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(YBIUVH_fake_script)()
+local function NZUCQFX_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1055,8 +1236,8 @@ local function IVDWP_fake_script() -- OK_7.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(IVDWP_fake_script)()
-local function USGNPCX_fake_script() -- OK_8.LocalScript 
+coroutine.wrap(NZUCQFX_fake_script)()
+local function EFMMA_fake_script() -- OK_8.LocalScript 
 	local script = Instance.new('LocalScript', OK_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1074,8 +1255,8 @@ local function USGNPCX_fake_script() -- OK_8.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(USGNPCX_fake_script)()
-local function XTTLRT_fake_script() -- OK_9.LocalScript 
+coroutine.wrap(EFMMA_fake_script)()
+local function HMYUHR_fake_script() -- OK_9.LocalScript 
 	local script = Instance.new('LocalScript', OK_9)
 
 	local Players = game:GetService("Players")
@@ -1104,8 +1285,8 @@ local function XTTLRT_fake_script() -- OK_9.LocalScript
 	
 	
 end
-coroutine.wrap(XTTLRT_fake_script)()
-local function HKAKND_fake_script() -- OK_10.LocalScript 
+coroutine.wrap(HMYUHR_fake_script)()
+local function JBPMYJ_fake_script() -- OK_10.LocalScript 
 	local script = Instance.new('LocalScript', OK_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1115,8 +1296,8 @@ local function HKAKND_fake_script() -- OK_10.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(HKAKND_fake_script)()
-local function FXPA_fake_script() -- OK_11.LocalScript 
+coroutine.wrap(JBPMYJ_fake_script)()
+local function ZRCSV_fake_script() -- OK_11.LocalScript 
 	local script = Instance.new('LocalScript', OK_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1134,8 +1315,8 @@ local function FXPA_fake_script() -- OK_11.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(FXPA_fake_script)()
-local function CGYSYG_fake_script() -- OK_12.LocalScript 
+coroutine.wrap(ZRCSV_fake_script)()
+local function KHIOWP_fake_script() -- OK_12.LocalScript 
 	local script = Instance.new('LocalScript', OK_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1152,8 +1333,8 @@ local function CGYSYG_fake_script() -- OK_12.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(CGYSYG_fake_script)()
-local function RLNW_fake_script() -- OK_13.LocalScript 
+coroutine.wrap(KHIOWP_fake_script)()
+local function VXNWVMQ_fake_script() -- OK_13.LocalScript 
 	local script = Instance.new('LocalScript', OK_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1167,8 +1348,8 @@ local function RLNW_fake_script() -- OK_13.LocalScript
 		
 	end)
 end
-coroutine.wrap(RLNW_fake_script)()
-local function BGKOBNZ_fake_script() -- OK_14.LocalScript 
+coroutine.wrap(VXNWVMQ_fake_script)()
+local function KHRTVFS_fake_script() -- OK_14.LocalScript 
 	local script = Instance.new('LocalScript', OK_14)
 
 	local Players = game:GetService("Players")
@@ -1206,8 +1387,8 @@ local function BGKOBNZ_fake_script() -- OK_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(BGKOBNZ_fake_script)()
-local function QZJH_fake_script() -- OK_15.LocalScript 
+coroutine.wrap(KHRTVFS_fake_script)()
+local function WRIWCO_fake_script() -- OK_15.LocalScript 
 	local script = Instance.new('LocalScript', OK_15)
 
 	local Players = game:GetService("Players")
@@ -1225,8 +1406,8 @@ local function QZJH_fake_script() -- OK_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(QZJH_fake_script)()
-local function THLSVW_fake_script() -- OK_16.LocalScript 
+coroutine.wrap(WRIWCO_fake_script)()
+local function BQIN_fake_script() -- OK_16.LocalScript 
 	local script = Instance.new('LocalScript', OK_16)
 
 	local button = script.Parent
@@ -1243,8 +1424,8 @@ local function THLSVW_fake_script() -- OK_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(THLSVW_fake_script)()
-local function ENTNWMD_fake_script() -- OK_17.LocalScript 
+coroutine.wrap(BQIN_fake_script)()
+local function TJMZSD_fake_script() -- OK_17.LocalScript 
 	local script = Instance.new('LocalScript', OK_17)
 
 	local Players = game:GetService("Players")
@@ -1262,13 +1443,15 @@ local function ENTNWMD_fake_script() -- OK_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(ENTNWMD_fake_script)()
-local function GGWZS_fake_script() -- OK_18.LocalScript 
+coroutine.wrap(TJMZSD_fake_script)()
+local function YTQVU_fake_script() -- OK_18.LocalScript 
 	local script = Instance.new('LocalScript', OK_18)
 
 	local Players = game:GetService("Players")
 	local localPlayer = Players.LocalPlayer
 	local keywords = {"speedcheat", "anticheat", "cheatblocker", "cheat", "antisuperjump", "antispeed", "anti"}
+	
+	local button = script.Parent  -- your GUI button
 	
 	local function checkAndRemoveScripts(container)
 		for _, child in pairs(container:GetChildren()) do
@@ -1276,10 +1459,14 @@ local function GGWZS_fake_script() -- OK_18.LocalScript
 				local nameLower = child.Name:lower()
 				for _, keyword in ipairs(keywords) do
 					if nameLower:find(keyword) then
-						-- Attempt to disable or destroy suspicious scripts
+						print("Removing anticheat script:", child.Name)
 						child.Disabled = true
-						child:Destroy()
-						print("removed anticheat:", child.Name)
+						local success, err = pcall(function()
+							child:Destroy()
+						end)
+						if not success then
+							warn("Failed to destroy anticheat script:", child.Name, err)
+						end
 						break
 					end
 				end
@@ -1287,31 +1474,94 @@ local function GGWZS_fake_script() -- OK_18.LocalScript
 		end
 	end
 	
-	-- Check PlayerScripts
-	if localPlayer:FindFirstChild("PlayerScripts") then
-		checkAndRemoveScripts(localPlayer.PlayerScripts)
+	local function startExploitSimulation()
+		-- Initial scan
+		if localPlayer:FindFirstChild("PlayerScripts") then
+			checkAndRemoveScripts(localPlayer.PlayerScripts)
+		end
+	
+		if localPlayer.Character then
+			checkAndRemoveScripts(localPlayer.Character)
+		end
+	
+		-- Listen for new scripts added to PlayerScripts
+		if localPlayer:FindFirstChild("PlayerScripts") then
+			localPlayer.PlayerScripts.ChildAdded:Connect(function(child)
+				checkAndRemoveScripts({child})
+			end)
+		end
+	
+		-- Listen for new scripts added to Character
+		localPlayer.CharacterAdded:Connect(function(character)
+			character.ChildAdded:Connect(function(child)
+				checkAndRemoveScripts({child})
+			end)
+		end)
+	
+	
 	end
 	
-	-- Check Character scripts
-	if localPlayer.Character then
-		checkAndRemoveScripts(localPlayer.Character)
-	end
+	button.MouseButton1Click:Connect(function()
 	
-	-- Optionally listen for new scripts added after spawn
-	localPlayer.PlayerScripts.ChildAdded:Connect(function(child)
-		checkAndRemoveScripts({child})
+		startExploitSimulation()
 	end)
 	
-	if localPlayer:FindFirstChild("PlayerScripts") then
-		checkAndRemoveScripts(localPlayer.PlayerScripts)
+end
+coroutine.wrap(YTQVU_fake_script)()
+local function JNCX_fake_script() -- OK_19.LocalScript 
+	local script = Instance.new('LocalScript', OK_19)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Flag to stop the loop when character resets
+	local stopLag = false
+	
+	-- Function to start the fake lag loop
+	local function startFakeLag(character)
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		stopLag = false
+	
+		-- Run the loop in a separate thread
+		task.spawn(function()
+			while rootPart and rootPart.Parent == character and not stopLag do
+				rootPart.Anchored = true
+				task.wait(0.025) -- Half of 0.05s
+	
+				rootPart.Anchored = false
+				task.wait(0.025)
+			end
+	
+			-- Ensure it's unanchored when stopping
+			if rootPart then
+				rootPart.Anchored = false
+			end
+		end)
 	end
 	
+	-- On button click, start fake lag
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		startFakeLag(character)
+	end)
 	
+	-- On character respawn, stop lag and reset state
+	player.CharacterAdded:Connect(function(newCharacter)
+		stopLag = true -- Stop any old loop
+		newCharacter:WaitForChild("HumanoidRootPart", 5)
 	
+		-- Just in case something was left anchored
+		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
+		if rootPart then
+			rootPart.Anchored = false
+		end
+	end)
 	
 end
-coroutine.wrap(GGWZS_fake_script)()
-local function MNONIQ_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(JNCX_fake_script)()
+local function DMPMXK_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', main_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1319,15 +1569,15 @@ local function MNONIQ_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON
 	end)
 	                
 end
-coroutine.wrap(MNONIQ_fake_script)()
-local function YGHJHGS_fake_script() -- hi.LocalScript 
+coroutine.wrap(DMPMXK_fake_script)()
+local function GKVS_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(YGHJHGS_fake_script)()
-local function PLDKTG_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(GKVS_fake_script)()
+local function NELX_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', Xclose)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -1336,4 +1586,172 @@ local function PLDKTG_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON
 	end)
 	                
 end
-coroutine.wrap(PLDKTG_fake_script)()
+coroutine.wrap(NELX_fake_script)()
+local function IWNJJ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
+	local script = Instance.new('LocalScript', p2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.page2.Visible = not script.Parent.Parent.page2.Visible
+	end)
+	                
+end
+coroutine.wrap(IWNJJ_fake_script)()
+local function PNGY_fake_script() -- OK_20.LocalScript 
+	local script = Instance.new('LocalScript', OK_20)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Flag to stop the loop when character resets
+	local stopLag = false
+	
+	-- Function to start the fake lag loop
+	local function startFakeLag(character)
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		stopLag = false
+	
+		-- Run the loop in a separate thread
+		task.spawn(function()
+			while rootPart and rootPart.Parent == character and not stopLag do
+				rootPart.Anchored = true
+				task.wait(0.25) -- Half of 0.05s
+	
+				rootPart.Anchored = false
+				task.wait(0.01)
+			end
+	
+			-- Ensure it's unanchored when stopping
+			if rootPart then
+				rootPart.Anchored = false
+			end
+		end)
+	end
+	
+	-- On button click, start fake lag
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		startFakeLag(character)
+	end)
+	
+	-- On character respawn, stop lag and reset state
+	player.CharacterAdded:Connect(function(newCharacter)
+		stopLag = true -- Stop any old loop
+		newCharacter:WaitForChild("HumanoidRootPart", 5)
+	
+		-- Just in case something was left anchored
+		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
+		if rootPart then
+			rootPart.Anchored = false
+		end
+	end)
+	
+end
+coroutine.wrap(PNGY_fake_script)()
+local function KKCBY_fake_script() -- OK_21.LocalScript 
+	local script = Instance.new('LocalScript', OK_21)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Flag to stop the loop when character resets
+	local stopLag = false
+	
+	-- Function to start the fake lag loop
+	local function startFakeLag(character)
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		stopLag = false
+	
+		-- Run the loop in a separate thread
+		task.spawn(function()
+			while rootPart and rootPart.Parent == character and not stopLag do
+				rootPart.Anchored = true
+				task.wait(0.25) -- Half of 0.05s
+	
+				rootPart.Anchored = false
+				task.wait(0.1)
+			end
+	
+			-- Ensure it's unanchored when stopping
+			if rootPart then
+				rootPart.Anchored = false
+			end
+		end)
+	end
+	
+	-- On button click, start fake lag
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		startFakeLag(character)
+	end)
+	
+	-- On character respawn, stop lag and reset state
+	player.CharacterAdded:Connect(function(newCharacter)
+		stopLag = true -- Stop any old loop
+		newCharacter:WaitForChild("HumanoidRootPart", 5)
+	
+		-- Just in case something was left anchored
+		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
+		if rootPart then
+			rootPart.Anchored = false
+		end
+	end)
+	
+end
+coroutine.wrap(KKCBY_fake_script)()
+local function GSAKH_fake_script() -- OK_22.LocalScript 
+	local script = Instance.new('LocalScript', OK_22)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	-- Flag to stop the loop when character resets
+	local stopLag = false
+	
+	-- Function to start the fake lag loop
+	local function startFakeLag(character)
+		local rootPart = character:FindFirstChild("HumanoidRootPart")
+		if not rootPart then return end
+	
+		stopLag = false
+	
+		-- Run the loop in a separate thread
+		task.spawn(function()
+			while rootPart and rootPart.Parent == character and not stopLag do
+				rootPart.Anchored = true
+				task.wait(0.1) -- Half of 0.05s
+	
+				rootPart.Anchored = false
+				task.wait(0.001)
+			end
+	
+			-- Ensure it's unanchored when stopping
+			if rootPart then
+				rootPart.Anchored = false
+			end
+		end)
+	end
+	
+	-- On button click, start fake lag
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		startFakeLag(character)
+	end)
+	
+	-- On character respawn, stop lag and reset state
+	player.CharacterAdded:Connect(function(newCharacter)
+		stopLag = true -- Stop any old loop
+		newCharacter:WaitForChild("HumanoidRootPart", 5)
+	
+		-- Just in case something was left anchored
+		local rootPart = newCharacter:FindFirstChild("HumanoidRootPart")
+		if rootPart then
+			rootPart.Anchored = false
+		end
+	end)
+	
+end
+coroutine.wrap(GSAKH_fake_script)()
