@@ -2985,7 +2985,7 @@ local function BLGVYF_fake_script() -- OK_36.LocalScript
 	local script = Instance.new('LocalScript', OK_36)
 
 	local button = script.Parent -- The button this script is inside
-	local TextChatService = game:Waitforchild("TextChatService")
+	local TextChatService = game.TextChatService
 	button.MouseButton1Click:Connect(function()
 		TextChatService.TextChannels.RBXGeneral:SendAsync("Ӻΰ₵Ҝ you")
 	end)
@@ -2995,7 +2995,7 @@ local function WKEQPG_fake_script() -- OK_37.LocalScript
 	local script = Instance.new('LocalScript', OK_37)
 
 	local button = script.Parent -- The button this script is inside
-	local TextChatService = game:Waitforchild("TextChatService")
+	local TextChatService = game.TextChatService
 	button.MouseButton1Click:Connect(function()
 		TextChatService.TextChannels.RBXGeneral:SendAsync("Ḅ ꞁ᷾ꞎ Ḉ ẖe")
 	end)
