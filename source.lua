@@ -109,39 +109,61 @@ local goto = Instance.new("Frame")
 local TextLabel_30 = Instance.new("TextLabel")
 local TextBox_3 = Instance.new("TextBox")
 local OK_28 = Instance.new("TextButton")
+local k_all = Instance.new("Frame")
+local TextLabel_31 = Instance.new("TextLabel")
+local OK_29 = Instance.new("TextButton")
+local godmod = Instance.new("Frame")
+local TextLabel_32 = Instance.new("TextLabel")
+local OK_30 = Instance.new("TextButton")
+local Fps = Instance.new("Frame")
+local TextLabel_33 = Instance.new("TextLabel")
+local OK_31 = Instance.new("TextButton")
+local gamebooster = Instance.new("Frame")
+local TextLabel_34 = Instance.new("TextLabel")
+local OK_32 = Instance.new("TextButton")
+local freecam = Instance.new("Frame")
+local TextLabel_35 = Instance.new("TextLabel")
+local OK_33 = Instance.new("TextButton")
+local unaimba = Instance.new("Frame")
+local TextLabel_36 = Instance.new("TextLabel")
+local OK_34 = Instance.new("TextButton")
+local kick = Instance.new("Frame")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextBox_4 = Instance.new("TextBox")
+local OK_35 = Instance.new("TextButton")
 local p3 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local page3 = Instance.new("Frame")
 local ScrollingFrame_3 = Instance.new("ScrollingFrame")
 local autoUlt = Instance.new("Frame")
-local TextLabel_31 = Instance.new("TextLabel")
-local OK_29 = Instance.new("TextButton")
-local autoUlt2 = Instance.new("Frame")
-local TextLabel_32 = Instance.new("TextLabel")
-local OK_30 = Instance.new("TextButton")
-local TextLabel_33 = Instance.new("TextLabel")
-local ae = Instance.new("Frame")
-local TextLabel_34 = Instance.new("TextLabel")
-local OK_31 = Instance.new("TextButton")
-local ae_2 = Instance.new("Frame")
-local TextLabel_35 = Instance.new("TextLabel")
-local OK_32 = Instance.new("TextButton")
-local disablean = Instance.new("Frame")
-local TextLabel_36 = Instance.new("TextLabel")
-local OK_33 = Instance.new("TextButton")
-local ae_3 = Instance.new("Frame")
-local TextLabel_37 = Instance.new("TextLabel")
-local OK_34 = Instance.new("TextButton")
 local TextLabel_38 = Instance.new("TextLabel")
+local OK_36 = Instance.new("TextButton")
+local autoUlt2 = Instance.new("Frame")
+local TextLabel_39 = Instance.new("TextLabel")
+local OK_37 = Instance.new("TextButton")
+local TextLabel_40 = Instance.new("TextLabel")
+local ae = Instance.new("Frame")
+local TextLabel_41 = Instance.new("TextLabel")
+local OK_38 = Instance.new("TextButton")
+local ae_2 = Instance.new("Frame")
+local TextLabel_42 = Instance.new("TextLabel")
+local OK_39 = Instance.new("TextButton")
+local disablean = Instance.new("Frame")
+local TextLabel_43 = Instance.new("TextLabel")
+local OK_40 = Instance.new("TextButton")
+local ae_3 = Instance.new("Frame")
+local TextLabel_44 = Instance.new("TextLabel")
+local OK_41 = Instance.new("TextButton")
+local TextLabel_45 = Instance.new("TextLabel")
 local p4 = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local page4 = Instance.new("Frame")
 local ScrollingFrame_4 = Instance.new("ScrollingFrame")
 local BF_selfkickfromadmins = Instance.new("Frame")
-local TextLabel_39 = Instance.new("TextLabel")
-local OK_35 = Instance.new("TextButton")
+local TextLabel_46 = Instance.new("TextLabel")
+local OK_42 = Instance.new("TextButton")
 local guiopen = Instance.new("ImageButton")
-local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -154,9 +176,8 @@ Frame.Parent = Main
 Frame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.0396379493, 0, 0.114610411, 0)
+Frame.Position = UDim2.new(-0.000946699292, 0, 0.193061337, 0)
 Frame.Size = UDim2.new(0, 710, 0, 421)
-Frame.Visible = false
 
 UICorner.Parent = Frame
 
@@ -191,7 +212,6 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
 ScrollingFrame.Size = UDim2.new(0, 620, 0, 342)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 364)
 
 INFJUMP.Name = "INFJUMP"
 INFJUMP.Parent = ScrollingFrame
@@ -907,7 +927,6 @@ page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 page2.BorderSizePixel = 0
 page2.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
 page2.Size = UDim2.new(0, 635, 0, 353)
-page2.Visible = false
 page2.ZIndex = 4
 
 ScrollingFrame_2.Parent = page2
@@ -918,6 +937,7 @@ ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame_2.BorderSizePixel = 0
 ScrollingFrame_2.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
 ScrollingFrame_2.Size = UDim2.new(0, 620, 0, 342)
+ScrollingFrame_2.CanvasPosition = Vector2.new(0, 364)
 
 fakelagv1ultra.Name = "fakelagv1ultra"
 fakelagv1ultra.Parent = ScrollingFrame_2
@@ -1243,6 +1263,228 @@ OK_28.Text = "APPLY"
 OK_28.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_28.TextSize = 20.000
 
+k_all.Name = "k_all"
+k_all.Parent = ScrollingFrame_2
+k_all.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+k_all.BorderColor3 = Color3.fromRGB(27, 42, 53)
+k_all.Position = UDim2.new(0.353655666, 0, 0.542810977, 0)
+k_all.Size = UDim2.new(0, 178, 0, 101)
+k_all.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_31.Parent = k_all
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 2.000
+TextLabel_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_31.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_31.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_31.Font = Enum.Font.Cartoon
+TextLabel_31.Text = "kill all"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextSize = 28.000
+
+OK_29.Name = "OK"
+OK_29.Parent = k_all
+OK_29.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_29.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_29.Size = UDim2.new(0, 104, 0, 41)
+OK_29.Font = Enum.Font.Cartoon
+OK_29.Text = "APPLY"
+OK_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_29.TextSize = 20.000
+
+godmod.Name = "godmod"
+godmod.Parent = ScrollingFrame_2
+godmod.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+godmod.BorderColor3 = Color3.fromRGB(27, 42, 53)
+godmod.Position = UDim2.new(0.0278492104, 0, 0.543526828, 0)
+godmod.Size = UDim2.new(0, 178, 0, 101)
+godmod.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_32.Parent = godmod
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 2.000
+TextLabel_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_32.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_32.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_32.Font = Enum.Font.Cartoon
+TextLabel_32.Text = "GODMODE (Works for some games not all)"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextScaled = true
+TextLabel_32.TextSize = 28.000
+TextLabel_32.TextWrapped = true
+
+OK_30.Name = "OK"
+OK_30.Parent = godmod
+OK_30.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_30.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_30.Size = UDim2.new(0, 104, 0, 41)
+OK_30.Font = Enum.Font.Cartoon
+OK_30.Text = "APPLY"
+OK_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_30.TextSize = 20.000
+
+Fps.Name = "Fps"
+Fps.Parent = ScrollingFrame_2
+Fps.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+Fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Fps.Position = UDim2.new(0.682687998, 0, 0.696563005, 0)
+Fps.Size = UDim2.new(0, 178, 0, 101)
+Fps.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_33.Parent = Fps
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 2.000
+TextLabel_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_33.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_33.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_33.Font = Enum.Font.Cartoon
+TextLabel_33.Text = "Show FPS"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextSize = 28.000
+
+OK_31.Name = "OK"
+OK_31.Parent = Fps
+OK_31.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_31.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_31.Size = UDim2.new(0, 104, 0, 41)
+OK_31.Font = Enum.Font.Cartoon
+OK_31.Text = "APPLY"
+OK_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_31.TextSize = 20.000
+
+gamebooster.Name = "gamebooster"
+gamebooster.Parent = ScrollingFrame_2
+gamebooster.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+gamebooster.BorderColor3 = Color3.fromRGB(27, 42, 53)
+gamebooster.Position = UDim2.new(0.350429893, 0, 0.697196186, 0)
+gamebooster.Size = UDim2.new(0, 178, 0, 101)
+gamebooster.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_34.Parent = gamebooster
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 2.000
+TextLabel_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_34.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_34.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_34.Font = Enum.Font.Cartoon
+TextLabel_34.Text = "Optimize game"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextSize = 28.000
+
+OK_32.Name = "OK"
+OK_32.Parent = gamebooster
+OK_32.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_32.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_32.Size = UDim2.new(0, 104, 0, 41)
+OK_32.Font = Enum.Font.Cartoon
+OK_32.Text = "APPLY"
+OK_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_32.TextSize = 20.000
+
+freecam.Name = "freecam"
+freecam.Parent = ScrollingFrame_2
+freecam.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+freecam.BorderColor3 = Color3.fromRGB(27, 42, 53)
+freecam.Position = UDim2.new(0.0262363553, 0, 0.696551204, 0)
+freecam.Size = UDim2.new(0, 178, 0, 101)
+freecam.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_35.Parent = freecam
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 2.000
+TextLabel_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_35.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_35.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_35.Font = Enum.Font.Cartoon
+TextLabel_35.Text = "freecam"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 28.000
+
+OK_33.Name = "OK"
+OK_33.Parent = freecam
+OK_33.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_33.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_33.Size = UDim2.new(0, 104, 0, 41)
+OK_33.Font = Enum.Font.Cartoon
+OK_33.Text = "APPLY"
+OK_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_33.TextSize = 20.000
+
+unaimba.Name = "un aim ba"
+unaimba.Parent = ScrollingFrame_2
+unaimba.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+unaimba.BorderColor3 = Color3.fromRGB(27, 42, 53)
+unaimba.Position = UDim2.new(0.6843009, 0, 0.847290814, 0)
+unaimba.Size = UDim2.new(0, 178, 0, 101)
+unaimba.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_36.Parent = unaimba
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 2.000
+TextLabel_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_36.Position = UDim2.new(0.195705801, 0, -0.00505836401, 0)
+TextLabel_36.Size = UDim2.new(0, 97, 0, 38)
+TextLabel_36.Font = Enum.Font.Cartoon
+TextLabel_36.Text = "Universal Aimbot"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextSize = 28.000
+
+OK_34.Name = "OK"
+OK_34.Parent = unaimba
+OK_34.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_34.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_34.Size = UDim2.new(0, 104, 0, 41)
+OK_34.Font = Enum.Font.Cartoon
+OK_34.Text = "APPLY"
+OK_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_34.TextSize = 20.000
+
+kick.Name = "kick"
+kick.Parent = ScrollingFrame_2
+kick.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+kick.BorderColor3 = Color3.fromRGB(27, 42, 53)
+kick.Position = UDim2.new(0.338681728, 0, 0.852505326, 0)
+kick.Size = UDim2.new(0, 188, 0, 99)
+kick.Style = Enum.FrameStyle.RobloxRound
+
+TextLabel_37.Parent = kick
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 2.000
+TextLabel_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_37.Position = UDim2.new(0.101492539, 0, -0.00914294273, 0)
+TextLabel_37.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_37.Font = Enum.Font.Cartoon
+TextLabel_37.Text = "Kick player FE"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextSize = 28.000
+
+TextBox_4.Parent = kick
+TextBox_4.BackgroundColor3 = Color3.fromRGB(48, 84, 97)
+TextBox_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox_4.Position = UDim2.new(0.0770735964, 0, 0.542800009, 0)
+TextBox_4.Size = UDim2.new(0, 138, 0, 37)
+TextBox_4.Font = Enum.Font.Cartoon
+TextBox_4.Text = ""
+TextBox_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.TextSize = 30.000
+
+OK_35.Name = "OK"
+OK_35.Parent = kick
+OK_35.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_35.Position = UDim2.new(0.877594471, 0, 0.451042086, 0)
+OK_35.Size = UDim2.new(0, 44, 0, 41)
+OK_35.Font = Enum.Font.Cartoon
+OK_35.Text = "APPLY"
+OK_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_35.TextSize = 20.000
+
 p3.Name = "p3"
 p3.Parent = Frame
 p3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1288,29 +1530,29 @@ autoUlt.Position = UDim2.new(0.686183393, 0, 0.0219471361, 0)
 autoUlt.Size = UDim2.new(0, 178, 0, 101)
 autoUlt.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_31.Parent = autoUlt
-TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_31.BackgroundTransparency = 2.000
-TextLabel_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_31.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_31.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_31.Font = Enum.Font.Cartoon
-TextLabel_31.Text = "Auto ult when under 80 hp"
-TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_31.TextScaled = true
-TextLabel_31.TextSize = 28.000
-TextLabel_31.TextWrapped = true
+TextLabel_38.Parent = autoUlt
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 2.000
+TextLabel_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_38.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_38.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_38.Font = Enum.Font.Cartoon
+TextLabel_38.Text = "Auto ult when under 80 hp"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextScaled = true
+TextLabel_38.TextSize = 28.000
+TextLabel_38.TextWrapped = true
 
-OK_29.Name = "OK"
-OK_29.Parent = autoUlt
-OK_29.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_29.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_29.Size = UDim2.new(0, 104, 0, 41)
-OK_29.Font = Enum.Font.Cartoon
-OK_29.Text = "APPLY"
-OK_29.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_29.TextSize = 20.000
+OK_36.Name = "OK"
+OK_36.Parent = autoUlt
+OK_36.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_36.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_36.Size = UDim2.new(0, 104, 0, 41)
+OK_36.Font = Enum.Font.Cartoon
+OK_36.Text = "APPLY"
+OK_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_36.TextSize = 20.000
 
 autoUlt2.Name = "autoUlt2"
 autoUlt2.Parent = ScrollingFrame_3
@@ -1320,42 +1562,42 @@ autoUlt2.Position = UDim2.new(0.370054394, 0, 0.0224106554, 0)
 autoUlt2.Size = UDim2.new(0, 178, 0, 101)
 autoUlt2.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_32.Parent = autoUlt2
-TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_32.BackgroundTransparency = 2.000
-TextLabel_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_32.Position = UDim2.new(-0.0242264997, 0, -0.0506247357, 0)
-TextLabel_32.Size = UDim2.new(0, 169, 0, 38)
-TextLabel_32.Font = Enum.Font.Cartoon
-TextLabel_32.Text = "Auto ult when under 30 hp       (DONT TOGGLE 2 OF THEM.)"
-TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_32.TextScaled = true
-TextLabel_32.TextSize = 28.000
-TextLabel_32.TextWrapped = true
+TextLabel_39.Parent = autoUlt2
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 2.000
+TextLabel_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_39.Position = UDim2.new(-0.0242264997, 0, -0.0506247357, 0)
+TextLabel_39.Size = UDim2.new(0, 169, 0, 38)
+TextLabel_39.Font = Enum.Font.Cartoon
+TextLabel_39.Text = "Auto ult when under 30 hp       (DONT TOGGLE 2 OF THEM.)"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextScaled = true
+TextLabel_39.TextSize = 28.000
+TextLabel_39.TextWrapped = true
 
-OK_30.Name = "OK"
-OK_30.Parent = autoUlt2
-OK_30.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_30.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_30.Size = UDim2.new(0, 104, 0, 41)
-OK_30.Font = Enum.Font.Cartoon
-OK_30.Text = "APPLY"
-OK_30.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_30.TextSize = 20.000
+OK_37.Name = "OK"
+OK_37.Parent = autoUlt2
+OK_37.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_37.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_37.Size = UDim2.new(0, 104, 0, 41)
+OK_37.Font = Enum.Font.Cartoon
+OK_37.Text = "APPLY"
+OK_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_37.TextSize = 20.000
 
-TextLabel_33.Parent = autoUlt2
-TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_33.BackgroundTransparency = 2.000
-TextLabel_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_33.Position = UDim2.new(-0.454655677, 0, 2.69739032, 0)
-TextLabel_33.Size = UDim2.new(0, 362, 0, 40)
-TextLabel_33.Font = Enum.Font.Cartoon
-TextLabel_33.Text = "More coming soon"
-TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_33.TextScaled = true
-TextLabel_33.TextSize = 28.000
-TextLabel_33.TextWrapped = true
+TextLabel_40.Parent = autoUlt2
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 2.000
+TextLabel_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_40.Position = UDim2.new(-0.454655677, 0, 2.69739032, 0)
+TextLabel_40.Size = UDim2.new(0, 362, 0, 40)
+TextLabel_40.Font = Enum.Font.Cartoon
+TextLabel_40.Text = "More coming soon"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextScaled = true
+TextLabel_40.TextSize = 28.000
+TextLabel_40.TextWrapped = true
 
 ae.Name = "ae"
 ae.Parent = ScrollingFrame_3
@@ -1365,29 +1607,29 @@ ae.Position = UDim2.new(0.68412739, 0, 0.610569954, 0)
 ae.Size = UDim2.new(0, 178, 0, 101)
 ae.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_34.Parent = ae
-TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_34.BackgroundTransparency = 2.000
-TextLabel_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_34.Position = UDim2.new(0.0612566657, 0, -0.176664442, 0)
-TextLabel_34.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_34.Font = Enum.Font.Cartoon
-TextLabel_34.Text = "teleport 0,0,0"
-TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_34.TextScaled = true
-TextLabel_34.TextSize = 28.000
-TextLabel_34.TextWrapped = true
+TextLabel_41.Parent = ae
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 2.000
+TextLabel_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_41.Position = UDim2.new(0.0612566657, 0, -0.176664442, 0)
+TextLabel_41.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_41.Font = Enum.Font.Cartoon
+TextLabel_41.Text = "teleport 0,0,0"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextScaled = true
+TextLabel_41.TextSize = 28.000
+TextLabel_41.TextWrapped = true
 
-OK_31.Name = "OK"
-OK_31.Parent = ae
-OK_31.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_31.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_31.Size = UDim2.new(0, 104, 0, 41)
-OK_31.Font = Enum.Font.Cartoon
-OK_31.Text = "TP"
-OK_31.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_31.TextSize = 20.000
+OK_38.Name = "OK"
+OK_38.Parent = ae
+OK_38.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_38.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_38.Size = UDim2.new(0, 104, 0, 41)
+OK_38.Font = Enum.Font.Cartoon
+OK_38.Text = "TP"
+OK_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_38.TextSize = 20.000
 
 ae_2.Name = "ae"
 ae_2.Parent = ScrollingFrame_3
@@ -1397,29 +1639,29 @@ ae_2.Position = UDim2.new(0.680825412, 0, 0.199012801, 0)
 ae_2.Size = UDim2.new(0, 178, 0, 101)
 ae_2.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_35.Parent = ae_2
-TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_35.BackgroundTransparency = 2.000
-TextLabel_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_35.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
-TextLabel_35.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_35.Font = Enum.Font.Cartoon
-TextLabel_35.Text = "teleport to death counter room"
-TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_35.TextScaled = true
-TextLabel_35.TextSize = 28.000
-TextLabel_35.TextWrapped = true
+TextLabel_42.Parent = ae_2
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 2.000
+TextLabel_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_42.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
+TextLabel_42.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_42.Font = Enum.Font.Cartoon
+TextLabel_42.Text = "teleport to death counter room"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextScaled = true
+TextLabel_42.TextSize = 28.000
+TextLabel_42.TextWrapped = true
 
-OK_32.Name = "OK"
-OK_32.Parent = ae_2
-OK_32.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_32.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_32.Size = UDim2.new(0, 104, 0, 41)
-OK_32.Font = Enum.Font.Cartoon
-OK_32.Text = "TP"
-OK_32.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_32.TextSize = 20.000
+OK_39.Name = "OK"
+OK_39.Parent = ae_2
+OK_39.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_39.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_39.Size = UDim2.new(0, 104, 0, 41)
+OK_39.Font = Enum.Font.Cartoon
+OK_39.Text = "TP"
+OK_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_39.TextSize = 20.000
 
 disablean.Name = "disablean"
 disablean.Parent = ScrollingFrame_3
@@ -1429,29 +1671,29 @@ disablean.Position = UDim2.new(0.367439568, 0, 0.187316895, 0)
 disablean.Size = UDim2.new(0, 178, 0, 101)
 disablean.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_36.Parent = disablean
-TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_36.BackgroundTransparency = 2.000
-TextLabel_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_36.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
-TextLabel_36.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_36.Font = Enum.Font.Cartoon
-TextLabel_36.Text = "disable ur character animations"
-TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_36.TextScaled = true
-TextLabel_36.TextSize = 28.000
-TextLabel_36.TextWrapped = true
+TextLabel_43.Parent = disablean
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 2.000
+TextLabel_43.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_43.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
+TextLabel_43.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_43.Font = Enum.Font.Cartoon
+TextLabel_43.Text = "disable ur character animations"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextScaled = true
+TextLabel_43.TextSize = 28.000
+TextLabel_43.TextWrapped = true
 
-OK_33.Name = "OK"
-OK_33.Parent = disablean
-OK_33.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_33.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_33.Size = UDim2.new(0, 104, 0, 41)
-OK_33.Font = Enum.Font.Cartoon
-OK_33.Text = "APPLY"
-OK_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_33.TextSize = 20.000
+OK_40.Name = "OK"
+OK_40.Parent = disablean
+OK_40.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_40.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_40.Size = UDim2.new(0, 104, 0, 41)
+OK_40.Font = Enum.Font.Cartoon
+OK_40.Text = "APPLY"
+OK_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_40.TextSize = 20.000
 
 ae_3.Name = "ae"
 ae_3.Parent = ScrollingFrame_3
@@ -1461,42 +1703,42 @@ ae_3.Position = UDim2.new(0.0540537201, 0, 0.187316895, 0)
 ae_3.Size = UDim2.new(0, 178, 0, 101)
 ae_3.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_37.Parent = ae_3
-TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_37.BackgroundTransparency = 2.000
-TextLabel_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_37.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
-TextLabel_37.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_37.Font = Enum.Font.Cartoon
-TextLabel_37.Text = "teleport to atomic slash room"
-TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_37.TextScaled = true
-TextLabel_37.TextSize = 28.000
-TextLabel_37.TextWrapped = true
+TextLabel_44.Parent = ae_3
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 2.000
+TextLabel_44.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_44.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
+TextLabel_44.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_44.Font = Enum.Font.Cartoon
+TextLabel_44.Text = "teleport to atomic slash room"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextScaled = true
+TextLabel_44.TextSize = 28.000
+TextLabel_44.TextWrapped = true
 
-OK_34.Name = "OK"
-OK_34.Parent = ae_3
-OK_34.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_34.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_34.Size = UDim2.new(0, 104, 0, 41)
-OK_34.Font = Enum.Font.Cartoon
-OK_34.Text = "TP"
-OK_34.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_34.TextSize = 20.000
+OK_41.Name = "OK"
+OK_41.Parent = ae_3
+OK_41.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_41.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_41.Size = UDim2.new(0, 104, 0, 41)
+OK_41.Font = Enum.Font.Cartoon
+OK_41.Text = "TP"
+OK_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_41.TextSize = 20.000
 
-TextLabel_38.Parent = ae_3
-TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_38.BackgroundTransparency = 2.000
-TextLabel_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_38.Position = UDim2.new(0.10058251, 0, 0.318385065, 0)
-TextLabel_38.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_38.Font = Enum.Font.Cartoon
-TextLabel_38.Text = ""
-TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_38.TextScaled = true
-TextLabel_38.TextSize = 28.000
-TextLabel_38.TextWrapped = true
+TextLabel_45.Parent = ae_3
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 2.000
+TextLabel_45.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_45.Position = UDim2.new(0.10058251, 0, 0.318385065, 0)
+TextLabel_45.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_45.Font = Enum.Font.Cartoon
+TextLabel_45.Text = ""
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.TextScaled = true
+TextLabel_45.TextSize = 28.000
+TextLabel_45.TextWrapped = true
 
 p4.Name = "p4"
 p4.Parent = Frame
@@ -1543,29 +1785,29 @@ BF_selfkickfromadmins.Position = UDim2.new(0.686183393, 0, 0.0219471361, 0)
 BF_selfkickfromadmins.Size = UDim2.new(0, 178, 0, 101)
 BF_selfkickfromadmins.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_39.Parent = BF_selfkickfromadmins
-TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_39.BackgroundTransparency = 2.000
-TextLabel_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_39.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_39.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_39.Font = Enum.Font.Cartoon
-TextLabel_39.Text = "Self-Panic kick when Admin/staff join"
-TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_39.TextScaled = true
-TextLabel_39.TextSize = 28.000
-TextLabel_39.TextWrapped = true
+TextLabel_46.Parent = BF_selfkickfromadmins
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 2.000
+TextLabel_46.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_46.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_46.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_46.Font = Enum.Font.Cartoon
+TextLabel_46.Text = "Self-Panic kick when Admin/staff join"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.TextScaled = true
+TextLabel_46.TextSize = 28.000
+TextLabel_46.TextWrapped = true
 
-OK_35.Name = "OK"
-OK_35.Parent = BF_selfkickfromadmins
-OK_35.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_35.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_35.Size = UDim2.new(0, 104, 0, 41)
-OK_35.Font = Enum.Font.Cartoon
-OK_35.Text = "APPLY"
-OK_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_35.TextSize = 20.000
+OK_42.Name = "OK"
+OK_42.Parent = BF_selfkickfromadmins
+OK_42.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_42.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_42.Size = UDim2.new(0, 104, 0, 41)
+OK_42.Font = Enum.Font.Cartoon
+OK_42.Text = "APPLY"
+OK_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_42.TextSize = 20.000
 
 guiopen.Name = "guiopen"
 guiopen.Parent = Main
@@ -1579,24 +1821,24 @@ guiopen.ZIndex = 999999999
 guiopen.Image = "http://www.roblox.com/asset/?id=6820357899"
 guiopen.ImageTransparency = 0.300
 
-TextLabel_40.Parent = guiopen
-TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_40.BackgroundTransparency = 1.000
-TextLabel_40.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_40.BorderSizePixel = 0
-TextLabel_40.Position = UDim2.new(0.126374543, 0, 0.126376748, 0)
-TextLabel_40.Size = UDim2.new(0, 54, 0, 54)
-TextLabel_40.ZIndex = -1
-TextLabel_40.Font = Enum.Font.SourceSans
-TextLabel_40.Text = "Untitled admin script hack frfr"
-TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_40.TextScaled = true
-TextLabel_40.TextSize = 14.000
-TextLabel_40.TextWrapped = true
+TextLabel_47.Parent = guiopen
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_47.BorderSizePixel = 0
+TextLabel_47.Position = UDim2.new(0.126374543, 0, 0.126376748, 0)
+TextLabel_47.Size = UDim2.new(0, 54, 0, 54)
+TextLabel_47.ZIndex = -1
+TextLabel_47.Font = Enum.Font.SourceSans
+TextLabel_47.Text = "Untitled admin script hack frfr"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.TextScaled = true
+TextLabel_47.TextSize = 14.000
+TextLabel_47.TextWrapped = true
 
 -- Scripts:
 
-local function NNVC_fake_script() -- Frame.Drag 
+local function TOLYHMD_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1639,8 +1881,8 @@ local function NNVC_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(NNVC_fake_script)()
-local function ELQZBEV_fake_script() -- OK.LocalScript 
+coroutine.wrap(TOLYHMD_fake_script)()
+local function TYWPPW_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	local UIS = game:GetService("UserInputService")
@@ -1694,8 +1936,8 @@ local function ELQZBEV_fake_script() -- OK.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(ELQZBEV_fake_script)()
-local function NIQOWQH_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(TYWPPW_fake_script)()
+local function TLQARSC_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1711,8 +1953,8 @@ local function NIQOWQH_fake_script() -- OK_2.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(NIQOWQH_fake_script)()
-local function LRVDYO_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(TLQARSC_fake_script)()
+local function XYWYBI_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	local Players = game:GetService("Players")
@@ -1738,8 +1980,8 @@ local function LRVDYO_fake_script() -- OK_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(LRVDYO_fake_script)()
-local function IHZO_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(XYWYBI_fake_script)()
+local function KVJQ_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1748,8 +1990,8 @@ local function IHZO_fake_script() -- OK_4.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(IHZO_fake_script)()
-local function SMPQY_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(KVJQ_fake_script)()
+local function MJGPQR_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	local Players = game:GetService("Players")
@@ -1817,8 +2059,8 @@ local function SMPQY_fake_script() -- OK_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(SMPQY_fake_script)()
-local function LFMS_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(MJGPQR_fake_script)()
+local function MOXQMLK_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1828,8 +2070,8 @@ local function LFMS_fake_script() -- OK_6.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(LFMS_fake_script)()
-local function MRDA_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(MOXQMLK_fake_script)()
+local function XMCQ_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1837,8 +2079,8 @@ local function MRDA_fake_script() -- OK_7.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(MRDA_fake_script)()
-local function EICHAGD_fake_script() -- OK_8.LocalScript 
+coroutine.wrap(XMCQ_fake_script)()
+local function UZVWUDO_fake_script() -- OK_8.LocalScript 
 	local script = Instance.new('LocalScript', OK_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1856,8 +2098,8 @@ local function EICHAGD_fake_script() -- OK_8.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(EICHAGD_fake_script)()
-local function XOYT_fake_script() -- OK_9.LocalScript 
+coroutine.wrap(UZVWUDO_fake_script)()
+local function ESWJI_fake_script() -- OK_9.LocalScript 
 	local script = Instance.new('LocalScript', OK_9)
 
 	local Players = game:GetService("Players")
@@ -1886,8 +2128,8 @@ local function XOYT_fake_script() -- OK_9.LocalScript
 	
 	
 end
-coroutine.wrap(XOYT_fake_script)()
-local function IQEE_fake_script() -- OK_10.LocalScript 
+coroutine.wrap(ESWJI_fake_script)()
+local function SWJXBNQ_fake_script() -- OK_10.LocalScript 
 	local script = Instance.new('LocalScript', OK_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1897,8 +2139,8 @@ local function IQEE_fake_script() -- OK_10.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(IQEE_fake_script)()
-local function ZRNPTYG_fake_script() -- OK_11.LocalScript 
+coroutine.wrap(SWJXBNQ_fake_script)()
+local function YORQY_fake_script() -- OK_11.LocalScript 
 	local script = Instance.new('LocalScript', OK_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1916,8 +2158,8 @@ local function ZRNPTYG_fake_script() -- OK_11.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(ZRNPTYG_fake_script)()
-local function IXOJI_fake_script() -- OK_12.LocalScript 
+coroutine.wrap(YORQY_fake_script)()
+local function VLGH_fake_script() -- OK_12.LocalScript 
 	local script = Instance.new('LocalScript', OK_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1934,8 +2176,8 @@ local function IXOJI_fake_script() -- OK_12.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(IXOJI_fake_script)()
-local function SHRB_fake_script() -- OK_13.LocalScript 
+coroutine.wrap(VLGH_fake_script)()
+local function DHWH_fake_script() -- OK_13.LocalScript 
 	local script = Instance.new('LocalScript', OK_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1949,8 +2191,8 @@ local function SHRB_fake_script() -- OK_13.LocalScript
 		
 	end)
 end
-coroutine.wrap(SHRB_fake_script)()
-local function PDRCAFI_fake_script() -- OK_14.LocalScript 
+coroutine.wrap(DHWH_fake_script)()
+local function QOFXTC_fake_script() -- OK_14.LocalScript 
 	local script = Instance.new('LocalScript', OK_14)
 
 	local Players = game:GetService("Players")
@@ -1988,8 +2230,8 @@ local function PDRCAFI_fake_script() -- OK_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(PDRCAFI_fake_script)()
-local function TOVIEEY_fake_script() -- OK_15.LocalScript 
+coroutine.wrap(QOFXTC_fake_script)()
+local function WMMFM_fake_script() -- OK_15.LocalScript 
 	local script = Instance.new('LocalScript', OK_15)
 
 	local Players = game:GetService("Players")
@@ -2007,8 +2249,8 @@ local function TOVIEEY_fake_script() -- OK_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(TOVIEEY_fake_script)()
-local function ZDEC_fake_script() -- OK_16.LocalScript 
+coroutine.wrap(WMMFM_fake_script)()
+local function OZSDFCM_fake_script() -- OK_16.LocalScript 
 	local script = Instance.new('LocalScript', OK_16)
 
 	local button = script.Parent
@@ -2025,8 +2267,8 @@ local function ZDEC_fake_script() -- OK_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZDEC_fake_script)()
-local function SCSDPG_fake_script() -- OK_17.LocalScript 
+coroutine.wrap(OZSDFCM_fake_script)()
+local function GXUJSNM_fake_script() -- OK_17.LocalScript 
 	local script = Instance.new('LocalScript', OK_17)
 
 	local Players = game:GetService("Players")
@@ -2044,8 +2286,8 @@ local function SCSDPG_fake_script() -- OK_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(SCSDPG_fake_script)()
-local function PIACRC_fake_script() -- OK_18.LocalScript 
+coroutine.wrap(GXUJSNM_fake_script)()
+local function GCZQJ_fake_script() -- OK_18.LocalScript 
 	local script = Instance.new('LocalScript', OK_18)
 
 	local Players = game:GetService("Players")
@@ -2108,8 +2350,8 @@ local function PIACRC_fake_script() -- OK_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(PIACRC_fake_script)()
-local function QQUQWA_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(GCZQJ_fake_script)()
+local function OIZC_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', main_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2117,15 +2359,15 @@ local function QQUQWA_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON
 	end)
 	                
 end
-coroutine.wrap(QQUQWA_fake_script)()
-local function CWLYYGW_fake_script() -- hi.LocalScript 
+coroutine.wrap(OIZC_fake_script)()
+local function EXHMN_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(CWLYYGW_fake_script)()
-local function QFBFK_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(EXHMN_fake_script)()
+local function KJCF_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', Xclose)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2134,8 +2376,8 @@ local function QFBFK_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(QFBFK_fake_script)()
-local function NNSD_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(KJCF_fake_script)()
+local function DMETPMQ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2143,8 +2385,8 @@ local function NNSD_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(NNSD_fake_script)()
-local function SPKK_fake_script() -- OK_19.LocalScript 
+coroutine.wrap(DMETPMQ_fake_script)()
+local function LMQL_fake_script() -- OK_19.LocalScript 
 	local script = Instance.new('LocalScript', OK_19)
 
 	local button = script.Parent
@@ -2196,8 +2438,8 @@ local function SPKK_fake_script() -- OK_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(SPKK_fake_script)()
-local function DKLQR_fake_script() -- OK_20.LocalScript 
+coroutine.wrap(LMQL_fake_script)()
+local function DDAOE_fake_script() -- OK_20.LocalScript 
 	local script = Instance.new('LocalScript', OK_20)
 
 	local button = script.Parent
@@ -2249,8 +2491,8 @@ local function DKLQR_fake_script() -- OK_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(DKLQR_fake_script)()
-local function MKEQL_fake_script() -- OK_21.LocalScript 
+coroutine.wrap(DDAOE_fake_script)()
+local function KCKWJ_fake_script() -- OK_21.LocalScript 
 	local script = Instance.new('LocalScript', OK_21)
 
 	local button = script.Parent
@@ -2302,8 +2544,8 @@ local function MKEQL_fake_script() -- OK_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(MKEQL_fake_script)()
-local function OHLAFP_fake_script() -- OK_22.LocalScript 
+coroutine.wrap(KCKWJ_fake_script)()
+local function AXLEJ_fake_script() -- OK_22.LocalScript 
 	local script = Instance.new('LocalScript', OK_22)
 
 	local button = script.Parent
@@ -2347,8 +2589,8 @@ local function OHLAFP_fake_script() -- OK_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(OHLAFP_fake_script)()
-local function ABJVN_fake_script() -- OK_23.LocalScript 
+coroutine.wrap(AXLEJ_fake_script)()
+local function MDNAC_fake_script() -- OK_23.LocalScript 
 	local script = Instance.new('LocalScript', OK_23)
 
 	local button = script.Parent
@@ -2400,8 +2642,8 @@ local function ABJVN_fake_script() -- OK_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(ABJVN_fake_script)()
-local function MWBAYM_fake_script() -- OK_24.LocalScript 
+coroutine.wrap(MDNAC_fake_script)()
+local function HEYVOV_fake_script() -- OK_24.LocalScript 
 	local script = Instance.new('LocalScript', OK_24)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2536,8 +2778,8 @@ local function MWBAYM_fake_script() -- OK_24.LocalScript
 	
 	
 end
-coroutine.wrap(MWBAYM_fake_script)()
-local function AKRSAGR_fake_script() -- OK_25.LocalScript 
+coroutine.wrap(HEYVOV_fake_script)()
+local function ZBRS_fake_script() -- OK_25.LocalScript 
 	local script = Instance.new('LocalScript', OK_25)
 
 	
@@ -2571,8 +2813,8 @@ local function AKRSAGR_fake_script() -- OK_25.LocalScript
 	end)
 	
 end
-coroutine.wrap(AKRSAGR_fake_script)()
-local function GMDNDC_fake_script() -- OK_26.LocalScript 
+coroutine.wrap(ZBRS_fake_script)()
+local function QUBEHV_fake_script() -- OK_26.LocalScript 
 	local script = Instance.new('LocalScript', OK_26)
 
 	local button = script.Parent
@@ -2595,8 +2837,8 @@ local function GMDNDC_fake_script() -- OK_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(GMDNDC_fake_script)()
-local function YJBJMPE_fake_script() -- OK_27.LocalScript 
+coroutine.wrap(QUBEHV_fake_script)()
+local function KIJY_fake_script() -- OK_27.LocalScript 
 	local script = Instance.new('LocalScript', OK_27)
 
 	local button = script.Parent
@@ -2619,8 +2861,8 @@ local function YJBJMPE_fake_script() -- OK_27.LocalScript
 	end)
 	
 end
-coroutine.wrap(YJBJMPE_fake_script)()
-local function BMET_fake_script() -- OK_28.LocalScript 
+coroutine.wrap(KIJY_fake_script)()
+local function EVMD_fake_script() -- OK_28.LocalScript 
 	local script = Instance.new('LocalScript', OK_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2632,8 +2874,1236 @@ local function BMET_fake_script() -- OK_28.LocalScript
 		players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 	end)
 end
-coroutine.wrap(BMET_fake_script)()
-local function MWGOVV_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(EVMD_fake_script)()
+local function UIKRCM_fake_script() -- OK_29.LocalScript 
+	local script = Instance.new('LocalScript', OK_29)
+
+	local button = script.Parent -- the TextButton
+	
+	button.MouseButton1Click:Connect(function()
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			player.Character:BreakJoints()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(UIKRCM_fake_script)()
+local function MONXIT_fake_script() -- OK_30.LocalScript 
+	local script = Instance.new('LocalScript', OK_30)
+
+	local button = script.Parent -- The TextButton
+	
+	local function Invincibility()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		if LocalPlayer.Character then
+			for i, v in pairs(LocalPlayer.Character:GetChildren()) do
+				if v.Name == "hitbox" then
+					v:Destroy()
+				end
+			end -- End of the for loop
+		end
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		Invincibility()
+	end)
+	
+	
+end
+coroutine.wrap(MONXIT_fake_script)()
+local function SKWP_fake_script() -- OK_31.LocalScript 
+	local script = Instance.new('LocalScript', OK_31)
+
+	local button = script.Parent -- the TextButton
+	
+	button.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local FPSGui = Instance.new("ScreenGui")
+		local TextLabel = Instance.new("TextLabel")
+	
+		--Properties:
+	
+		FPSGui.Name = "FPSGui"
+		FPSGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		FPSGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		TextLabel.Parent = FPSGui
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		TextLabel.Position = UDim2.new(0, 699, 0, 0)
+		TextLabel.Size = UDim2.new(0.100000001, 0, 0.0500000007, 0)
+		TextLabel.Font = Enum.Font.SourceSans
+		TextLabel.Text = "0 FPS"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextScaled = true
+		TextLabel.TextSize = 14.000
+		TextLabel.TextStrokeTransparency = 0.000
+		TextLabel.TextWrapped = true
+		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+	
+		-- Scripts:
+	
+		local function NDYYV_fake_script() -- TextLabel.LocalScript 
+			local script = Instance.new('LocalScript', TextLabel)
+	
+			local RS = game:GetService("RunService")
+			local frames = 0
+	
+			RS.RenderStepped:Connect(function()
+				frames = frames + 1
+			end)
+	
+			while wait(1) do
+				script.Parent.Text = frames .. " FPS"
+				frames = 0
+			end
+		end
+		coroutine.wrap(NDYYV_fake_script)()
+	
+	end)
+	
+	
+end
+coroutine.wrap(SKWP_fake_script)()
+local function RKAPW_fake_script() -- OK_32.LocalScript 
+	local script = Instance.new('LocalScript', OK_32)
+
+	local button = script.Parent -- the TextButton
+	
+	button.MouseButton1Click:Connect(function()
+	
+		-- Deletes all Decals, Textures, and GUI Images (ImageLabel, ImageButton) on the client
+	
+		local function deleteInstancesOfClass(parent, classNames)
+			for _, obj in parent:GetDescendants() do
+				for _, className in classNames do
+					if obj:IsA(className) then
+						obj:Destroy()
+					end
+				end
+			end
+		end
+		-- Remove Decals and Textures from Workspace
+		deleteInstancesOfClass(game.Workspace, {"Decal", "Texture", "ParticleEmitter", "Smoke"})
+	
+	
+		-- Optionally, remove Decals/Textures from other services if needed & remove sky 
+	 deleteInstancesOfClass(game.Lighting, {"Decal", "Texture"})
+		deleteInstancesOfClass(game.ReplicatedStorage, {"Decal", "Texture"})
+		local lightning = game.Lighting:FindFirstChildOfClass('Sky')
+		local re = game.Lighting:FindFirstChildOfClass("BloomEffect")
+		local er = game.Lighting:FindFirstChildOfClass("DepthOfFieldEffect")
+		local rer = game.Lighting:FindFirstChildOfClass("SunRaysEffect")
+		lightning:Destroy()
+		re:Destroy()
+		er:Destroy()
+		rer:Destroy()
+		
+		for _, obj in workspace:GetDescendants() do
+			if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
+				obj:Destroy()
+			end
+		end
+		local lighting = game:GetService("Lighting")
+		local effects = {"BloomEffect", "BlurEffect", "DepthOfFieldEffect", "SunRaysEffect", "ColorCorrectionEffect", "Atmosphere"}
+		for _, effectName in effects do
+			local effect = lighting:FindFirstChildOfClass(effectName)
+			while effect do
+				effect:Destroy()
+				effect = lighting:FindFirstChildOfClass(effectName)
+			end
+		end
+		local terrain = workspace:FindFirstChildOfClass("Terrain")
+		if terrain then
+			terrain.Decoration = false
+			terrain.WaterTransparency = 0
+			terrain.WaterReflectance = 0
+			terrain.WaterWaveSize = 0
+			terrain.WaterWaveSpeed = 0
+		end
+		for _, obj in workspace:GetChildrens() do
+			if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
+				obj:Destroy()
+			end
+			for _, obj in workspace:GetParents() do
+				if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
+					obj:Destroy()
+				end
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(RKAPW_fake_script)()
+local function KNSIS_fake_script() -- OK_33.LocalScript 
+	local script = Instance.new('LocalScript', OK_33)
+
+	local button = script.Parent -- the TextButton
+	
+	button.MouseButton1Click:Connect(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local Freecam = Instance.new("ScreenGui")
+	
+		--Properties:
+	
+		Freecam.Name = "Freecam"
+		Freecam.Parent = game.Players.LocalPlayer.PlayerGui
+		Freecam.ResetOnSpawn = false
+	
+		-- Scripts:
+	
+		local function RZPRTQE_fake_script() -- Freecam.FreecamScript 
+			local script = Instance.new('LocalScript', Freecam)
+	
+			--!nonstrict
+			------------------------------------------------------------------------
+			-- Freecam
+			-- Cinematic free camera for spectating and video production.
+			------------------------------------------------------------------------
+	
+			local pi    = math.pi
+			local abs   = math.abs
+			local clamp = math.clamp
+			local exp   = math.exp
+			local rad   = math.rad
+			local sign  = math.sign
+			local sqrt  = math.sqrt
+			local tan   = math.tan
+	
+			local ContextActionService = game:GetService("ContextActionService")
+			local Players = game:GetService("Players")
+			local RunService = game:GetService("RunService")
+			local StarterGui = game:GetService("StarterGui")
+			local UserInputService = game:GetService("UserInputService")
+			local Workspace = game:GetService("Workspace")
+			local Settings = UserSettings()
+			local GameSettings = Settings.GameSettings
+	
+			local LocalPlayer = Players.LocalPlayer
+			if not LocalPlayer then
+				Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+				LocalPlayer = Players.LocalPlayer
+			end
+	
+			local Camera = Workspace.CurrentCamera
+			Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+				local newCamera = Workspace.CurrentCamera
+				if newCamera then
+					Camera = newCamera
+				end
+			end)
+	
+			local FFlagUserExitFreecamBreaksWithShiftlock
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserExitFreecamBreaksWithShiftlock")
+				end)
+				FFlagUserExitFreecamBreaksWithShiftlock = success and result
+			end
+	
+			local FFlagUserShowGuiHideToggles
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserShowGuiHideToggles")
+				end)
+				FFlagUserShowGuiHideToggles = success and result
+			end
+	
+			local FFlagUserFixFreecamDeltaTimeCalculation
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFixFreecamDeltaTimeCalculation")
+				end)
+				FFlagUserFixFreecamDeltaTimeCalculation = success and result
+			end
+	
+			local FFlagUserFixFreecamGuiChangeVisibility
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFixFreecamGuiChangeVisibility")
+				end)
+				FFlagUserFixFreecamGuiChangeVisibility = success and result
+			end
+	
+			local FFlagUserFreecamControlSpeed
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFreecamControlSpeed")
+				end)
+				FFlagUserFreecamControlSpeed = success and result
+			end
+	
+			local FFlagUserFreecamTiltControl
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFreecamTiltControl")
+				end)
+				FFlagUserFreecamTiltControl = success and result
+			end
+	
+			local FFlagUserFreecamSmoothnessControl
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFreecamSmoothnessControl")
+				end)
+				FFlagUserFreecamSmoothnessControl = success and result
+			end
+	
+			local FFlagUserFreecamGuiDestabilization
+			do
+				local success, result = pcall(function()
+					return UserSettings():IsUserFeatureEnabled("UserFreecamGuiDestabilization")
+				end)
+				FFlagUserFreecamGuiDestabilization = success and result
+			end
+	
+			------------------------------------------------------------------------
+	
+			local FREECAM_ENABLED_ATTRIBUTE_NAME = "FreecamEnabled"
+			local TOGGLE_INPUT_PRIORITY = Enum.ContextActionPriority.Low.Value
+			local INPUT_PRIORITY = Enum.ContextActionPriority.High.Value
+			local FREECAM_MACRO_KB = {Enum.KeyCode.LeftShift, Enum.KeyCode.P}
+			local FREECAM_TILT_RESET_KB = {
+				[Enum.KeyCode.Z] = true,
+				[Enum.KeyCode.C] = true
+			}
+			local FREECAM_TILT_RESET_GP = {
+				[Enum.KeyCode.ButtonL1] = true,
+				[Enum.KeyCode.ButtonR1] = true
+			}
+	
+			local NAV_GAIN = Vector3.new(1, 1, 1)*64
+			local PAN_GAIN = Vector2.new(0.75, 1)*8
+			local FOV_GAIN = 300
+			local ROLL_GAIN = -pi/2
+	
+			local PITCH_LIMIT = rad(90)
+	
+			local VEL_STIFFNESS = 1.5
+			local PAN_STIFFNESS = 1.0
+			local FOV_STIFFNESS = 4.0
+			local ROLL_STIFFNESS = 1.0
+	
+			local VEL_ADJ_STIFFNESS = 0.75
+			local PAN_ADJ_STIFFNESS = 0.75
+			local FOV_ADJ_STIFFNESS = 0.75
+			local ROLL_ADJ_STIFFNESS = 0.75
+	
+			local VEL_MIN_STIFFNESS = 0.01
+			local PAN_MIN_STIFFNESS = 0.01
+			local FOV_MIN_STIFFNESS = 0.01
+			local ROLL_MIN_STIFFNESS = 0.01
+	
+			local VEL_MAX_STIFFNESS = 10.0
+			local PAN_MAX_STIFFNESS = 10.0
+			local FOV_MAX_STIFFNESS = 10.0
+			local ROLL_MAX_STIFFNESS = 10.0
+	
+			local lastPressTime = {}
+			local lastResetTime = 0
+			local DOUBLE_TAP_TIME_THRESHOLD = 0.25
+			local DOUBLE_TAP_DEBOUNCE_TIME = 0.1
+	
+			------------------------------------------------------------------------
+	
+			local Spring = {} do
+				Spring.__index = Spring
+	
+				function Spring.new(freq, pos)
+					local self = setmetatable({}, Spring)
+					self.f = freq
+					self.p = pos
+					self.v = pos*0
+					return self
+				end
+	
+				function Spring:Update(dt, goal)
+					local f = self.f*2*pi
+					local p0 = self.p
+					local v0 = self.v
+	
+					local offset = goal - p0
+					local decay = exp(-f*dt)
+	
+					local p1 = goal + (v0*dt - offset*(f*dt + 1))*decay
+					local v1 = (f*dt*(offset*f - v0) + v0)*decay
+	
+					self.p = p1
+					self.v = v1
+	
+					return p1
+				end
+	
+				function Spring:SetFreq(freq)
+					self.f = freq
+				end
+	
+				function Spring:Reset(pos)
+					self.p = pos
+					self.v = pos*0
+				end
+			end
+	
+			------------------------------------------------------------------------
+	
+			local cameraPos = Vector3.new()
+			local cameraRot
+			if FFlagUserFreecamTiltControl then
+				cameraRot = Vector3.new()
+			else 
+				cameraRot = Vector2.new()
+			end
+			local cameraFov = 0
+	
+			local velSpring = Spring.new(VEL_STIFFNESS, Vector3.new())
+			local panSpring = Spring.new(PAN_STIFFNESS, Vector2.new())
+			local fovSpring = Spring.new(FOV_STIFFNESS, 0)
+			local rollSpring = Spring.new(ROLL_STIFFNESS, 0)
+	
+			------------------------------------------------------------------------
+	
+			local Input = {} do
+				local thumbstickCurve do
+					local K_CURVATURE = 2.0
+					local K_DEADZONE = 0.15
+	
+					local function fCurve(x)
+						return (exp(K_CURVATURE*x) - 1)/(exp(K_CURVATURE) - 1)
+					end
+	
+					local function fDeadzone(x)
+						return fCurve((x - K_DEADZONE)/(1 - K_DEADZONE))
+					end
+	
+					function thumbstickCurve(x)
+						return sign(x)*clamp(fDeadzone(abs(x)), 0, 1)
+					end
+				end
+	
+				local gamepad = {
+					ButtonX = 0,
+					ButtonY = 0,
+					DPadDown = 0,
+					DPadUp = 0,
+					DPadLeft = 0,
+					DPadRight = 0,
+					ButtonL2 = 0,
+					ButtonR2 = 0,
+					ButtonL1 = 0,
+					ButtonR1 = 0,
+					Thumbstick1 = Vector2.new(),
+					Thumbstick2 = Vector2.new(),
+				}
+	
+				local keyboard = {
+					W = 0,
+					A = 0,
+					S = 0,
+					D = 0,
+					E = 0,
+					Q = 0,
+					U = 0,
+					H = 0,
+					J = 0,
+					K = 0,
+					I = 0,
+					Y = 0,
+					Up = 0,
+					Down = 0,
+					Left = 0,
+					Right = 0,
+					LeftShift = 0,
+					RightShift = 0,
+					Z = 0,
+					C = 0,
+					Comma = 0,
+					Period = 0,
+					LeftBracket = 0,
+					RightBracket = 0,
+					Semicolon = 0,
+					Quote = 0,
+					V = 0,
+					B = 0,
+					N = 0,
+					M = 0,
+				}
+	
+				local mouse = {
+					Delta = Vector2.new(),
+					MouseWheel = 0,
+				}
+	
+				local DEFAULT_FPS         = 60
+				local NAV_GAMEPAD_SPEED   = Vector3.new(1, 1, 1)
+				local NAV_KEYBOARD_SPEED  = Vector3.new(1, 1, 1)
+				local PAN_MOUSE_SPEED     = Vector2.new(1, 1)*(pi/64)
+				local PAN_MOUSE_SPEED_DT  = PAN_MOUSE_SPEED/DEFAULT_FPS
+				local PAN_GAMEPAD_SPEED   = Vector2.new(1, 1)*(pi/8)
+				local FOV_WHEEL_SPEED     = 1.0
+				local FOV_WHEEL_SPEED_DT  = FOV_WHEEL_SPEED/DEFAULT_FPS
+				local FOV_GAMEPAD_SPEED   = 0.25
+				local ROLL_GAMEPAD_SPEED  = 1.0
+				local ROLL_KEYBOARD_SPEED = 1.0
+				local NAV_ADJ_SPEED       = 0.75
+				local NAV_MIN_SPEED       = 0.01
+				local NAV_MAX_SPEED       = 4.0
+				local NAV_SHIFT_MUL       = 0.25
+				local FOV_ADJ_SPEED       = 0.75
+				local FOV_MIN_SPEED       = 0.01
+				local FOV_MAX_SPEED       = 4.0
+				local ROLL_ADJ_SPEED      = 0.75
+				local ROLL_MIN_SPEED      = 0.01
+				local ROLL_MAX_SPEED      = 4.0
+	
+				local navSpeed = 1
+				local rollSpeed = 1
+				local fovSpeed = 1
+	
+				function Input.Vel(dt)
+					if FFlagUserFreecamControlSpeed then
+						navSpeed = clamp(navSpeed + dt*(keyboard.Up - keyboard.Down + gamepad.DPadUp - gamepad.DPadDown)*NAV_ADJ_SPEED, NAV_MIN_SPEED, NAV_MAX_SPEED)
+					else
+						navSpeed = clamp(navSpeed + dt*(keyboard.Up - keyboard.Down)*NAV_ADJ_SPEED, 0.01, 4)
+					end
+					local kGamepad = Vector3.new(
+						thumbstickCurve(gamepad.Thumbstick1.X),
+						thumbstickCurve(gamepad.ButtonR2) - thumbstickCurve(gamepad.ButtonL2),
+						thumbstickCurve(-gamepad.Thumbstick1.Y)
+					)*NAV_GAMEPAD_SPEED
+	
+					local kKeyboard = Vector3.new(
+						keyboard.D - keyboard.A + keyboard.K - keyboard.H,
+						keyboard.E - keyboard.Q + keyboard.I - keyboard.Y,
+						keyboard.S - keyboard.W + keyboard.J - keyboard.U
+					)*NAV_KEYBOARD_SPEED
+	
+					local shift = UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) or UserInputService:IsKeyDown(Enum.KeyCode.RightShift)
+	
+					return (kGamepad + kKeyboard)*(navSpeed*(shift and NAV_SHIFT_MUL or 1))
+				end
+	
+				function Input.Pan(dt)
+					local kGamepad = Vector2.new(
+						thumbstickCurve(gamepad.Thumbstick2.Y),
+						thumbstickCurve(-gamepad.Thumbstick2.X)
+					)*PAN_GAMEPAD_SPEED
+					local kMouse = mouse.Delta*PAN_MOUSE_SPEED
+					if FFlagUserFixFreecamDeltaTimeCalculation then
+						if dt > 0 then
+							kMouse = (mouse.Delta/dt)*PAN_MOUSE_SPEED_DT
+						end
+					end
+					mouse.Delta = Vector2.new()
+					return kGamepad + kMouse
+				end
+	
+				function Input.Fov(dt)
+					if FFlagUserFreecamControlSpeed then
+						fovSpeed = clamp(fovSpeed + dt*(keyboard.Right - keyboard.Left + gamepad.DPadRight - gamepad.DPadLeft)*FOV_ADJ_SPEED, FOV_MIN_SPEED, FOV_MAX_SPEED)
+					end
+					local kGamepad = (gamepad.ButtonX - gamepad.ButtonY)*FOV_GAMEPAD_SPEED
+					local kMouse = mouse.MouseWheel*FOV_WHEEL_SPEED
+					if FFlagUserFixFreecamDeltaTimeCalculation then
+						if dt > 0 then
+							kMouse = (mouse.MouseWheel/dt)*FOV_WHEEL_SPEED_DT
+						end
+					end
+					mouse.MouseWheel = 0
+					if FFlagUserFreecamControlSpeed then
+						return (kGamepad + kMouse)*fovSpeed
+					else
+						return kGamepad + kMouse
+					end
+				end
+	
+				function Input.Roll(dt)
+					rollSpeed = clamp(rollSpeed + dt*(keyboard.Period - keyboard.Comma)*ROLL_ADJ_SPEED, ROLL_MIN_SPEED, ROLL_MAX_SPEED)
+	
+					local kGamepad = (gamepad.ButtonR1 - gamepad.ButtonL1)*ROLL_GAMEPAD_SPEED
+					local kKeyboard = (keyboard.C - keyboard.Z)*ROLL_KEYBOARD_SPEED
+	
+					return (kGamepad + kKeyboard)*rollSpeed
+				end
+	
+				function Input.SpringControl(dt)
+					VEL_STIFFNESS = clamp(VEL_STIFFNESS + dt*(keyboard.RightBracket - keyboard.LeftBracket)*VEL_ADJ_STIFFNESS, VEL_MIN_STIFFNESS, VEL_MAX_STIFFNESS)
+					velSpring:SetFreq(VEL_STIFFNESS)
+	
+					PAN_STIFFNESS = clamp(PAN_STIFFNESS + dt*(keyboard.Quote - keyboard.Semicolon)*PAN_ADJ_STIFFNESS, PAN_MIN_STIFFNESS, PAN_MAX_STIFFNESS)
+					panSpring:SetFreq(PAN_STIFFNESS)
+	
+					FOV_STIFFNESS = clamp(FOV_STIFFNESS + dt*(keyboard.B - keyboard.V)*FOV_ADJ_STIFFNESS, FOV_MIN_STIFFNESS, FOV_MAX_STIFFNESS)
+					fovSpring:SetFreq(FOV_STIFFNESS)
+	
+					ROLL_STIFFNESS = clamp(ROLL_STIFFNESS + dt*(keyboard.M - keyboard.N)*ROLL_ADJ_STIFFNESS, ROLL_MIN_STIFFNESS, ROLL_MAX_STIFFNESS)
+					rollSpring:SetFreq(ROLL_STIFFNESS)
+				end
+	
+				do
+					local function handleDoubleTapReset(keyCode)
+						local currentTime = os.clock()
+	
+						local previousPressTime = lastPressTime[keyCode]
+						local timeSinceLastPress = previousPressTime and (currentTime - previousPressTime) or -1
+	
+						if previousPressTime and (timeSinceLastPress <= DOUBLE_TAP_TIME_THRESHOLD) then
+							if (currentTime - lastResetTime) >= DOUBLE_TAP_DEBOUNCE_TIME then
+								cameraRot = Vector3.new(cameraRot.x, cameraRot.y, 0)
+								rollSpring:Reset(0)
+								gamepad.ButtonL1 = 0
+								gamepad.ButtonR1 = 0
+								keyboard.C = 0
+								keyboard.Z = 0
+								lastResetTime = currentTime
+							end
+						end
+						lastPressTime[keyCode] = currentTime
+					end
+	
+					local function Keypress(action, state, input)
+						keyboard[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+	
+						if FFlagUserFreecamTiltControl then
+							if FREECAM_TILT_RESET_KB[input.KeyCode] and input.UserInputState == Enum.UserInputState.Begin then
+								handleDoubleTapReset(input.KeyCode)
+							end
+						end
+	
+						return Enum.ContextActionResult.Sink
+					end
+	
+	
+					local function GpButton(action, state, input)
+						gamepad[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+	
+						if FFlagUserFreecamTiltControl then
+							if FREECAM_TILT_RESET_GP[input.KeyCode] and input.UserInputState == Enum.UserInputState.Begin then
+								handleDoubleTapReset(input.KeyCode)
+							end
+						end
+	
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function MousePan(action, state, input)
+						local delta = input.Delta
+						mouse.Delta = Vector2.new(-delta.y, -delta.x)
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Thumb(action, state, input)
+						gamepad[input.KeyCode.Name] = input.Position
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Trigger(action, state, input)
+						gamepad[input.KeyCode.Name] = input.Position.z
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function MouseWheel(action, state, input)
+						mouse[input.UserInputType.Name] = -input.Position.z
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Zero(t)
+						for k, v in pairs(t) do
+							t[k] = v*0
+						end
+					end
+	
+					function Input.StartCapture()
+						if FFlagUserFreecamControlSpeed then
+							ContextActionService:BindActionAtPriority("FreecamKeyboard", Keypress, false, INPUT_PRIORITY,
+								Enum.KeyCode.W, Enum.KeyCode.U,
+								Enum.KeyCode.A, Enum.KeyCode.H,
+								Enum.KeyCode.S, Enum.KeyCode.J,
+								Enum.KeyCode.D, Enum.KeyCode.K,
+								Enum.KeyCode.E, Enum.KeyCode.I,
+								Enum.KeyCode.Q, Enum.KeyCode.Y
+							)
+							ContextActionService:BindActionAtPriority("FreecamKeyboardControlSpeed", Keypress, false, INPUT_PRIORITY,
+								Enum.KeyCode.Up, Enum.KeyCode.Down,
+								Enum.KeyCode.Left, Enum.KeyCode.Right
+							)
+							ContextActionService:BindActionAtPriority("FreecamGamepadControlSpeed", GpButton, false, INPUT_PRIORITY, 
+								Enum.KeyCode.DPadUp, Enum.KeyCode.DPadDown, 
+								Enum.KeyCode.DPadLeft, Enum.KeyCode.DPadRight
+							)
+						else
+							ContextActionService:BindActionAtPriority("FreecamKeyboard", Keypress, false, INPUT_PRIORITY,
+								Enum.KeyCode.W, Enum.KeyCode.U,
+								Enum.KeyCode.A, Enum.KeyCode.H,
+								Enum.KeyCode.S, Enum.KeyCode.J,
+								Enum.KeyCode.D, Enum.KeyCode.K,
+								Enum.KeyCode.E, Enum.KeyCode.I,
+								Enum.KeyCode.Q, Enum.KeyCode.Y,
+								Enum.KeyCode.Up, Enum.KeyCode.Down
+							)
+						end
+						if FFlagUserFreecamTiltControl then
+							ContextActionService:BindActionAtPriority("FreecamKeyboardTiltControl", Keypress, false, INPUT_PRIORITY,
+								Enum.KeyCode.Z, Enum.KeyCode.C
+							)
+							ContextActionService:BindActionAtPriority("FreecamGamepadTiltControl", GpButton, false, INPUT_PRIORITY,
+								Enum.KeyCode.ButtonL1, Enum.KeyCode.ButtonR1
+							)
+							ContextActionService:BindActionAtPriority("FreecamKeyboardTiltControlSpeed", Keypress, false, INPUT_PRIORITY,
+								Enum.KeyCode.Comma, Enum.KeyCode.Period
+							)
+							if FFlagUserFreecamSmoothnessControl then
+								ContextActionService:BindActionAtPriority("FreecamKeyboardSmoothnessControl", Keypress, false, INPUT_PRIORITY,
+									Enum.KeyCode.LeftBracket, Enum.KeyCode.RightBracket, 
+									Enum.KeyCode.Semicolon, Enum.KeyCode.Quote,
+									Enum.KeyCode.V, Enum.KeyCode.B,
+									Enum.KeyCode.N, Enum.KeyCode.M
+								)
+							end
+						end
+						ContextActionService:BindActionAtPriority("FreecamMousePan",          MousePan,   false, INPUT_PRIORITY, Enum.UserInputType.MouseMovement)
+						ContextActionService:BindActionAtPriority("FreecamMouseWheel",        MouseWheel, false, INPUT_PRIORITY, Enum.UserInputType.MouseWheel)
+						ContextActionService:BindActionAtPriority("FreecamGamepadButton",     GpButton,   false, INPUT_PRIORITY, Enum.KeyCode.ButtonX, Enum.KeyCode.ButtonY)
+						ContextActionService:BindActionAtPriority("FreecamGamepadTrigger",    Trigger,    false, INPUT_PRIORITY, Enum.KeyCode.ButtonR2, Enum.KeyCode.ButtonL2)
+						ContextActionService:BindActionAtPriority("FreecamGamepadThumbstick", Thumb,      false, INPUT_PRIORITY, Enum.KeyCode.Thumbstick1, Enum.KeyCode.Thumbstick2)
+					end
+	
+					function Input.StopCapture()
+						navSpeed = 1
+						if FFlagUserFreecamControlSpeed then
+							fovSpeed = 1
+						end
+						if FFlagUserFreecamTiltControl then
+							rollSpeed = 1
+						end
+						Zero(gamepad)
+						Zero(keyboard)
+						Zero(mouse)
+						ContextActionService:UnbindAction("FreecamKeyboard")
+						if FFlagUserFreecamControlSpeed then
+							ContextActionService:UnbindAction("FreecamKeyboardControlSpeed")
+							ContextActionService:UnbindAction("FreecamGamepadControlSpeed")
+						end
+						if FFlagUserFreecamTiltControl then
+							ContextActionService:UnbindAction("FreecamKeyboardTiltControl")
+							ContextActionService:UnbindAction("FreecamGamepadTiltControl")
+							ContextActionService:UnbindAction("FreecamKeyboardTiltControlSpeed")
+							if FFlagUserFreecamSmoothnessControl then
+								ContextActionService:UnbindAction("FreecamKeyboardSmoothnessControl")
+							end
+						end
+						ContextActionService:UnbindAction("FreecamMousePan")
+						ContextActionService:UnbindAction("FreecamMouseWheel")
+						ContextActionService:UnbindAction("FreecamGamepadButton")
+						ContextActionService:UnbindAction("FreecamGamepadTrigger")
+						ContextActionService:UnbindAction("FreecamGamepadThumbstick")
+					end
+				end
+			end
+	
+			------------------------------------------------------------------------
+	
+			local function StepFreecam(dt)
+				if FFlagUserFreecamSmoothnessControl then
+					Input.SpringControl(dt)
+				end
+	
+				local vel = velSpring:Update(dt, Input.Vel(dt))
+				local pan = panSpring:Update(dt, Input.Pan(dt))
+				local fov = fovSpring:Update(dt, Input.Fov(dt))
+				local roll
+				if FFlagUserFreecamTiltControl then
+					roll = rollSpring:Update(dt, Input.Roll(dt))
+				end
+	
+				local zoomFactor = sqrt(tan(rad(70/2))/tan(rad(cameraFov/2)))
+	
+				cameraFov = clamp(cameraFov + fov*FOV_GAIN*(dt/zoomFactor), 1, 120)
+				local cameraCFrame
+				if FFlagUserFreecamTiltControl then
+					local panVector: Vector2 = pan*PAN_GAIN*(dt/zoomFactor)
+					cameraRot = cameraRot + Vector3.new(panVector.X, panVector.Y, roll*ROLL_GAIN*(dt/zoomFactor))
+					if FFlagUserFreecamSmoothnessControl then
+						cameraRot = Vector3.new(cameraRot.x%(2*pi), cameraRot.y%(2*pi), cameraRot.z%(2*pi))
+					else
+						cameraRot = Vector3.new(clamp(cameraRot.x, -PITCH_LIMIT, PITCH_LIMIT), cameraRot.y%(2*pi), cameraRot.z)
+					end
+	
+					cameraCFrame = CFrame.new(cameraPos)*CFrame.fromOrientation(cameraRot.x, cameraRot.y, cameraRot.z)*CFrame.new(vel*NAV_GAIN*dt)
+				else 
+					cameraRot = cameraRot + pan*PAN_GAIN*(dt/zoomFactor)
+					cameraRot = Vector2.new(clamp(cameraRot.x, -PITCH_LIMIT, PITCH_LIMIT), cameraRot.y%(2*pi))
+	
+					cameraCFrame = CFrame.new(cameraPos)*CFrame.fromOrientation(cameraRot.x, cameraRot.y, 0)*CFrame.new(vel*NAV_GAIN*dt)
+				end
+	
+				cameraPos = cameraCFrame.p
+	
+				Camera.CFrame = cameraCFrame
+				Camera.Focus = cameraCFrame 
+				Camera.FieldOfView = cameraFov
+			end
+	
+			local function CheckMouseLockAvailability()
+				local devAllowsMouseLock = Players.LocalPlayer.DevEnableMouseLock
+				local devMovementModeIsScriptable = Players.LocalPlayer.DevComputerMovementMode == Enum.DevComputerMovementMode.Scriptable
+				local userHasMouseLockModeEnabled = GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch
+				local userHasClickToMoveEnabled =  GameSettings.ComputerMovementMode == Enum.ComputerMovementMode.ClickToMove
+				local MouseLockAvailable = devAllowsMouseLock and userHasMouseLockModeEnabled and not userHasClickToMoveEnabled and not devMovementModeIsScriptable
+	
+				return MouseLockAvailable
+			end
+	
+			------------------------------------------------------------------------
+	
+			local PlayerState = {} do
+				local mouseBehavior
+				local mouseIconEnabled
+				local cameraType
+				local cameraFocus
+				local cameraCFrame
+				local cameraFieldOfView
+				local screenGuis = {}
+				local coreGuis = {
+					Backpack = true,
+					Chat = true,
+					Health = true,
+					PlayerList = true,
+				}
+				local setCores = {
+					BadgesNotificationsActive = true,
+					PointsNotificationsActive = true,
+				}
+	
+				-- Save state and set up for freecam
+				function PlayerState.Push()
+					for name in pairs(coreGuis) do
+						coreGuis[name] = StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType[name])
+						StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], false)
+					end
+					for name in pairs(setCores) do
+						setCores[name] = StarterGui:GetCore(name)
+						StarterGui:SetCore(name, false)
+					end
+					local playergui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
+					if playergui then
+						for _, gui in pairs(playergui:GetChildren()) do
+							if gui:IsA("ScreenGui") and gui.Enabled then
+								screenGuis[#screenGuis + 1] = gui
+								gui.Enabled = false
+							end
+						end
+						if FFlagUserFixFreecamGuiChangeVisibility then
+							playergui.ChildAdded:Connect(function(child)
+								if child:IsA("ScreenGui") and child.Enabled then
+									screenGuis[#screenGuis + 1] = child
+									child.Enabled = false
+								end
+							end)
+						end
+					end
+	
+					cameraFieldOfView = Camera.FieldOfView
+					Camera.FieldOfView = 70
+	
+					cameraType = Camera.CameraType
+					Camera.CameraType = Enum.CameraType.Custom
+	
+					cameraCFrame = Camera.CFrame
+					cameraFocus = Camera.Focus
+	
+					mouseIconEnabled = UserInputService.MouseIconEnabled
+					UserInputService.MouseIconEnabled = false
+	
+					if FFlagUserExitFreecamBreaksWithShiftlock and CheckMouseLockAvailability() then
+						mouseBehavior = Enum.MouseBehavior.Default
+					else
+						mouseBehavior = UserInputService.MouseBehavior
+					end
+					UserInputService.MouseBehavior = Enum.MouseBehavior.Default
+				end
+	
+				-- Restore state
+				function PlayerState.Pop()
+					for name, isEnabled in pairs(coreGuis) do
+						StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], isEnabled)
+					end
+					for name, isEnabled in pairs(setCores) do
+						StarterGui:SetCore(name, isEnabled)
+					end
+					for _, gui in pairs(screenGuis) do
+						if gui.Parent then
+							gui.Enabled = true
+						end
+					end
+					if FFlagUserFixFreecamGuiChangeVisibility then
+						screenGuis = {}
+					end
+	
+					Camera.FieldOfView = cameraFieldOfView
+					cameraFieldOfView = nil
+	
+					Camera.CameraType = cameraType
+					cameraType = nil
+	
+					Camera.CFrame = cameraCFrame
+					cameraCFrame = nil
+	
+					Camera.Focus = cameraFocus
+					cameraFocus = nil
+	
+					UserInputService.MouseIconEnabled = mouseIconEnabled
+					mouseIconEnabled = nil
+	
+					UserInputService.MouseBehavior = mouseBehavior
+					mouseBehavior = nil
+				end
+			end
+	
+			local function StartFreecam()
+				if not FFlagUserFreecamGuiDestabilization then
+					if FFlagUserShowGuiHideToggles then
+						script:SetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME, true)
+					end
+				end
+	
+				local cameraCFrame = Camera.CFrame
+				if FFlagUserFreecamTiltControl then
+					cameraRot = Vector3.new(cameraCFrame:toEulerAnglesYXZ())
+				else
+					cameraRot = Vector2.new(cameraCFrame:toEulerAnglesYXZ())
+				end
+				cameraPos = cameraCFrame.p
+				cameraFov = Camera.FieldOfView
+	
+				velSpring:Reset(Vector3.new())
+				panSpring:Reset(Vector2.new())
+				fovSpring:Reset(0)
+				if FFlagUserFreecamTiltControl then 
+					rollSpring:Reset(0)
+				end
+	
+				if FFlagUserFreecamSmoothnessControl then
+					VEL_STIFFNESS = 1.5
+					PAN_STIFFNESS = 1.0
+					FOV_STIFFNESS = 4.0
+					ROLL_STIFFNESS = 1.0
+				end
+	
+				PlayerState.Push()
+				RunService:BindToRenderStep("Freecam", Enum.RenderPriority.Camera.Value, StepFreecam)
+				Input.StartCapture()
+			end
+	
+			local function StopFreecam()
+				if not FFlagUserFreecamGuiDestabilization then
+					if FFlagUserShowGuiHideToggles then
+						script:SetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME, false)
+					end
+				end
+	
+				Input.StopCapture()
+				RunService:UnbindFromRenderStep("Freecam")
+				PlayerState.Pop()
+			end
+	
+			------------------------------------------------------------------------
+	
+			do
+				local enabled = false
+	
+				local function ToggleFreecam()
+					if enabled then
+						StopFreecam()
+					else
+						StartFreecam()
+					end
+					enabled = not enabled
+					if FFlagUserFreecamGuiDestabilization then
+						script:SetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME, enabled)
+					end
+				end
+	
+				local function CheckMacro(macro)
+					for i = 1, #macro - 1 do
+						if not UserInputService:IsKeyDown(macro[i]) then
+							return
+						end
+					end
+					ToggleFreecam()
+				end
+	
+				local function HandleActivationInput(action, state, input)
+					if state == Enum.UserInputState.Begin then
+						if input.KeyCode == FREECAM_MACRO_KB[#FREECAM_MACRO_KB] then
+							CheckMacro(FREECAM_MACRO_KB)
+						end
+					end
+					return Enum.ContextActionResult.Pass
+				end
+	
+				ContextActionService:BindActionAtPriority("FreecamToggle", HandleActivationInput, false, TOGGLE_INPUT_PRIORITY, FREECAM_MACRO_KB[#FREECAM_MACRO_KB])
+	
+				if FFlagUserFreecamGuiDestabilization or FFlagUserShowGuiHideToggles then
+					script:SetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME, enabled)
+					script:GetAttributeChangedSignal(FREECAM_ENABLED_ATTRIBUTE_NAME):Connect(function()
+						local attributeValue = script:GetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME)
+	
+						if typeof(attributeValue) ~= "boolean" then
+							script:SetAttribute(FREECAM_ENABLED_ATTRIBUTE_NAME, enabled)
+							return
+						end
+	
+						-- If the attribute's value and `enabled` var don't match, pick attribute value as 
+						-- source of truth
+						if attributeValue ~= enabled then
+							if attributeValue then
+								StartFreecam()
+								enabled = true
+							else
+								StopFreecam()
+								enabled = false
+							end
+						end
+					end)
+				end
+			end
+		end
+		coroutine.wrap(RZPRTQE_fake_script)()
+	
+	end)
+	
+	
+end
+coroutine.wrap(KNSIS_fake_script)()
+local function DHCCLX_fake_script() -- OK_34.LocalScript 
+	local script = Instance.new('LocalScript', OK_34)
+
+	local button = script.Parent -- the TextButton
+	
+	button.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local LocalPlayer = Players.LocalPlayer
+		local Mouse = game.Players.LocalPlayer:GetMouse()
+		local CamlockState = false
+		local Prediction = 0.1768521
+		local HorizontalPrediction = 0.111076110
+		local VerticalPrediction = 0.11034856
+		local XPrediction = 20
+		local YPrediction = 20
+	
+		local Players = game:GetService("Players")	
+		local LP = Players.LocalPlayer	
+		local Mouse = LP:GetMouse()	
+	
+		local Locked = true
+	
+		getgenv().Key = "v"
+	
+		function FindNearestEnemy()
+			local ClosestDistance, ClosestPlayer = math.huge, nil
+			local CenterPosition =
+				Vector2.new(
+					game:GetService("GuiService"):GetScreenResolution().X / 2,
+					game:GetService("GuiService"):GetScreenResolution().Y / 2
+				)
+	
+			for _, Player in ipairs(game:GetService("Players"):GetPlayers()) do
+				if Player ~= LocalPlayer then
+					local Character = Player.Character
+					if Character and Character:FindFirstChild("HumanoidRootPart") and Character.Humanoid.Health > 0 then
+						local Position, IsVisibleOnViewport =
+							game:GetService("Workspace").CurrentCamera:WorldToViewportPoint(Character.HumanoidRootPart.Position)
+	
+						if IsVisibleOnViewport then
+							local Distance = (CenterPosition - Vector2.new(Position.X, Position.Y)).Magnitude
+							if Distance < ClosestDistance then
+								ClosestPlayer = Character.HumanoidRootPart
+								ClosestDistance = Distance
+							end
+						end
+					end
+				end
+			end
+	
+			return ClosestPlayer
+		end
+	
+		local enemy = nil
+		-- Function to aim the camera at the nearest enemy's HumanoidRootPart
+		RunService.Heartbeat:Connect(
+			function()
+				if CamlockState == true then
+					if enemy then
+						local camera = workspace.CurrentCamera
+						camera.CFrame = CFrame.new(camera.CFrame.p, enemy.Position + enemy.Velocity * Prediction)
+					end
+				end
+			end
+		)
+	
+		Mouse.KeyDown:Connect(function(k)	
+			if k == getgenv().Key then	
+				Locked = not Locked	
+				if Locked then	
+					enemy = FindNearestEnemy()
+					CamlockState = true
+				else	
+					if enemy ~= nil then	
+						enemy = nil	
+						CamlockState = false
+					end	
+				end	
+			end	
+		end)
+	
+		local Rushex = Instance.new("ScreenGui")
+		local Frame = Instance.new("Frame")
+		local UICorner = Instance.new("UICorner")
+		local Logo = Instance.new("ImageLabel")
+		local TextButton = Instance.new("TextButton")
+		local UICorner_2 = Instance.new("UICorner")
+	
+		--Properties:
+	
+		Rushex.Name = "Rushex"
+		Rushex.Parent = game.CoreGui
+		Rushex.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		Frame.Parent = Rushex
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)  -- Background set to white
+		Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Frame.BorderSizePixel = 0
+		Frame.Position = UDim2.new(0.133798108, 0, 0.20107238, 0)
+		Frame.Size = UDim2.new(0, 202, 0, 70)
+		Frame.Active = true
+		Frame.Draggable = true
+	
+		local function TopContainer()
+			Frame.Position = UDim2.new(0.5, -Frame.AbsoluteSize.X / 2, 0, -Frame.AbsoluteSize.Y / 2)
+		end
+	
+		TopContainer()
+		Frame:GetPropertyChangedSignal("AbsoluteSize"):Connect(TopContainer)
+	
+		UICorner.Parent = Frame
+	
+		Logo.Name = "Logo"
+		Logo.Parent = Frame
+		Logo.BackgroundColor3 = Color3.fromRGB(100, 255, 100)
+		Logo.BackgroundTransparency = 3.000
+		Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Logo.BorderSizePixel = 0
+		Logo.Position = UDim2.new(0.326732665, 0, 0, 0)
+		Logo.Size = UDim2.new(0, 70, 0, 70)
+		Logo.Image = "rbxassetid://830610397"
+		Logo.ImageTransparency = 0.300
+	
+		TextButton.Parent = Frame
+		TextButton.BackgroundColor3 = Color3.fromRGB(75, 80, 255)
+		TextButton.BackgroundTransparency = 5.000
+		TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TextButton.BorderSizePixel = 0
+		TextButton.Position = UDim2.new(0.0792079195, 0, 0.18571429, 0)
+		TextButton.Size = UDim2.new(0, 170, 0, 44)
+		TextButton.Font = Enum.Font.SourceSansSemibold
+		TextButton.Text = "Toggle Rushex"
+		TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)  -- Text color changed to black
+		TextButton.TextScaled = true
+		TextButton.TextSize = 18.000
+		TextButton.TextWrapped = true
+		local state = true
+		TextButton.MouseButton1Click:Connect(
+			function()
+				state = not state
+				if not state then
+					TextButton.Text = "Rushex ON"
+					CamlockState = true
+					enemy = FindNearestEnemy()
+				else
+					TextButton.Text = "Rushex OFF"
+					CamlockState = false
+					enemy = nil
+				end
+			end
+		)
+	
+		-- Function to hide the loading screen after a certain duration
+		local function HideLoadingScreen()
+			LoadingScreen:Destroy()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(DHCCLX_fake_script)()
+local function TRYUXK_fake_script() -- OK_35.LocalScript 
+	local script = Instance.new('LocalScript', OK_35)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local username = script.Parent.TextBox.Text
+		if username == "" then
+			warn("No username entered!")
+			return
+		end
+	
+		local Players = game:GetService("Players")
+		local targetPlayer = Players:FindFirstChild(username)
+		if not targetPlayer then
+			warn("Player not found: " .. username)
+			return
+		end
+	
+		-- Possible RemoteEvent names
+		local possibleNames = {"Kick", "KickPlayer", "KickPlayerEvent", "KICK", "KICKPLAYER", "REMOTEKICK", "KICK", "KICKFROMGAME", "KICKFROMSERVER", "kickfromserver", "KickFromServer", "Kick", "kick", "kicks", "kickfromgaem", "KickEvent", "KICKEVENT", "EVENTKICKPLAYER", "KickPlayerEvent"}
+		local remoteEvent
+	
+		-- Search through all services
+		for _, service in ipairs(game:GetChildren()) do
+			for _, obj in ipairs(service:GetDescendants()) do
+				if obj:IsA("RemoteEvent") then
+					for _, name in ipairs(possibleNames) do
+						if obj.Name == name then
+							remoteEvent = obj
+							break
+						end
+					end
+				end
+				if remoteEvent then break end
+			end
+			if remoteEvent then break end
+		end
+	
+		if remoteEvent then
+			-- Try both ways: just username or username + reason
+			local success, err = pcall(function()
+				remoteEvent:FireServer(username) -- Some games only need the username
+			end)
+	
+			if not success then
+				pcall(function()
+					remoteEvent:FireServer(username, "Kicked by admin") -- Some games expect a reason
+				end)
+			end
+		else
+			warn("No RemoteEvent found to handle kicking.")
+		end
+	end)
+	
+end
+coroutine.wrap(TRYUXK_fake_script)()
+local function CDHIBR_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2641,9 +4111,9 @@ local function MWGOVV_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(MWGOVV_fake_script)()
-local function VLMH_fake_script() -- OK_29.LocalScript 
-	local script = Instance.new('LocalScript', OK_29)
+coroutine.wrap(CDHIBR_fake_script)()
+local function JZBLSCY_fake_script() -- OK_36.LocalScript 
+	local script = Instance.new('LocalScript', OK_36)
 
 	-- References
 	local player = game:GetService("Players").LocalPlayer
@@ -2686,9 +4156,9 @@ local function VLMH_fake_script() -- OK_29.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VLMH_fake_script)()
-local function MBZNHX_fake_script() -- OK_30.LocalScript 
-	local script = Instance.new('LocalScript', OK_30)
+coroutine.wrap(JZBLSCY_fake_script)()
+local function NJMUY_fake_script() -- OK_37.LocalScript 
+	local script = Instance.new('LocalScript', OK_37)
 
 	-- References
 	local player = game:GetService("Players").LocalPlayer
@@ -2731,9 +4201,9 @@ local function MBZNHX_fake_script() -- OK_30.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MBZNHX_fake_script)()
-local function IDUT_fake_script() -- OK_31.LocalScript 
-	local script = Instance.new('LocalScript', OK_31)
+coroutine.wrap(NJMUY_fake_script)()
+local function GLCGNVZ_fake_script() -- OK_38.LocalScript 
+	local script = Instance.new('LocalScript', OK_38)
 
 	local button = script.Parent
 	
@@ -2750,9 +4220,9 @@ local function IDUT_fake_script() -- OK_31.LocalScript
 	end)
 	
 end
-coroutine.wrap(IDUT_fake_script)()
-local function DYLC_fake_script() -- OK_32.LocalScript 
-	local script = Instance.new('LocalScript', OK_32)
+coroutine.wrap(GLCGNVZ_fake_script)()
+local function WPBHJZ_fake_script() -- OK_39.LocalScript 
+	local script = Instance.new('LocalScript', OK_39)
 
 	local button = script.Parent
 	
@@ -2770,9 +4240,9 @@ local function DYLC_fake_script() -- OK_32.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DYLC_fake_script)()
-local function KZELZSR_fake_script() -- OK_33.LocalScript 
-	local script = Instance.new('LocalScript', OK_33)
+coroutine.wrap(WPBHJZ_fake_script)()
+local function IISUD_fake_script() -- OK_40.LocalScript 
+	local script = Instance.new('LocalScript', OK_40)
 
 	local button = script.Parent
 	local player = game:GetService("Players").LocalPlayer
@@ -2800,9 +4270,9 @@ local function KZELZSR_fake_script() -- OK_33.LocalScript
 	end)
 	
 end
-coroutine.wrap(KZELZSR_fake_script)()
-local function CEYQGEL_fake_script() -- OK_34.LocalScript 
-	local script = Instance.new('LocalScript', OK_34)
+coroutine.wrap(IISUD_fake_script)()
+local function OEHI_fake_script() -- OK_41.LocalScript 
+	local script = Instance.new('LocalScript', OK_41)
 
 	local button = script.Parent
 	
@@ -2820,8 +4290,8 @@ local function CEYQGEL_fake_script() -- OK_34.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CEYQGEL_fake_script)()
-local function GKHQJLU_fake_script() -- p4.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(OEHI_fake_script)()
+local function GFKMQU_fake_script() -- p4.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p4)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2829,9 +4299,9 @@ local function GKHQJLU_fake_script() -- p4.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(GKHQJLU_fake_script)()
-local function VLRSS_fake_script() -- OK_35.LocalScript 
-	local script = Instance.new('LocalScript', OK_35)
+coroutine.wrap(GFKMQU_fake_script)()
+local function NAFGSYE_fake_script() -- OK_42.LocalScript 
+	local script = Instance.new('LocalScript', OK_42)
 
 	local button = script.Parent -- The button this script is inside
 	local Players = game:GetService("Players")
@@ -2864,8 +4334,8 @@ local function VLRSS_fake_script() -- OK_35.LocalScript
 		print("☑️✅☑️")
 	end)
 end
-coroutine.wrap(VLRSS_fake_script)()
-local function JLJY_fake_script() -- guiopen.oc 
+coroutine.wrap(NAFGSYE_fake_script)()
+local function NFHO_fake_script() -- guiopen.oc 
 	local script = Instance.new('LocalScript', guiopen)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2873,4 +4343,4 @@ local function JLJY_fake_script() -- guiopen.oc
 	end)
 	                
 end
-coroutine.wrap(JLJY_fake_script)()
+coroutine.wrap(NFHO_fake_script)()
