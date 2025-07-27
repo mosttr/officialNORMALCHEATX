@@ -916,6 +916,7 @@ page2.BorderSizePixel = 0
 page2.Position = UDim2.new(0.0969104171, 0, 0.114014253, 0)
 page2.Size = UDim2.new(0, 635, 0, 353)
 page2.ZIndex = 4
+page2.Visible = true
 
 ScrollingFrame_2.Parent = page2
 ScrollingFrame_2.Active = true
