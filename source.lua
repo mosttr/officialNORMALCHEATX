@@ -115,60 +115,48 @@ local OK_29 = Instance.new("TextButton")
 local godmod = Instance.new("Frame")
 local TextLabel_32 = Instance.new("TextLabel")
 local OK_30 = Instance.new("TextButton")
-local Fps = Instance.new("Frame")
+local freecam = Instance.new("Frame")
 local TextLabel_33 = Instance.new("TextLabel")
 local OK_31 = Instance.new("TextButton")
-local gamebooster = Instance.new("Frame")
+local unaimba = Instance.new("Frame")
 local TextLabel_34 = Instance.new("TextLabel")
 local OK_32 = Instance.new("TextButton")
-local freecam = Instance.new("Frame")
-local TextLabel_35 = Instance.new("TextLabel")
-local OK_33 = Instance.new("TextButton")
-local unaimba = Instance.new("Frame")
-local TextLabel_36 = Instance.new("TextLabel")
-local OK_34 = Instance.new("TextButton")
 local kick = Instance.new("Frame")
-local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
 local TextBox_4 = Instance.new("TextBox")
-local OK_35 = Instance.new("TextButton")
+local OK_33 = Instance.new("TextButton")
 local p3 = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local page3 = Instance.new("Frame")
 local ScrollingFrame_3 = Instance.new("ScrollingFrame")
 local autoUlt = Instance.new("Frame")
-local TextLabel_38 = Instance.new("TextLabel")
-local OK_36 = Instance.new("TextButton")
+local TextLabel_36 = Instance.new("TextLabel")
+local OK_34 = Instance.new("TextButton")
 local autoUlt2 = Instance.new("Frame")
-local TextLabel_39 = Instance.new("TextLabel")
-local OK_37 = Instance.new("TextButton")
-local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local OK_35 = Instance.new("TextButton")
+local TextLabel_38 = Instance.new("TextLabel")
 local ae = Instance.new("Frame")
+local TextLabel_39 = Instance.new("TextLabel")
+local OK_36 = Instance.new("TextButton")
+local ae_2 = Instance.new("Frame")
+local TextLabel_40 = Instance.new("TextLabel")
+local OK_37 = Instance.new("TextButton")
+local disablean = Instance.new("Frame")
 local TextLabel_41 = Instance.new("TextLabel")
 local OK_38 = Instance.new("TextButton")
-local ae_2 = Instance.new("Frame")
+local ae_3 = Instance.new("Frame")
 local TextLabel_42 = Instance.new("TextLabel")
 local OK_39 = Instance.new("TextButton")
-local disablean = Instance.new("Frame")
 local TextLabel_43 = Instance.new("TextLabel")
-local OK_40 = Instance.new("TextButton")
-local ae_3 = Instance.new("Frame")
-local TextLabel_44 = Instance.new("TextLabel")
-local OK_41 = Instance.new("TextButton")
-local TextLabel_45 = Instance.new("TextLabel")
-local p4 = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local page4 = Instance.new("Frame")
-local ScrollingFrame_4 = Instance.new("ScrollingFrame")
-local BF_selfkickfromadmins = Instance.new("Frame")
-local TextLabel_46 = Instance.new("TextLabel")
-local OK_42 = Instance.new("TextButton")
 local guiopen = Instance.new("ImageButton")
-local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
 
 --Properties:
 
 Main.Name = "Main"
 Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.Enabled = true
 Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Main.ResetOnSpawn = false
 
@@ -937,7 +925,6 @@ ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame_2.BorderSizePixel = 0
 ScrollingFrame_2.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
 ScrollingFrame_2.Size = UDim2.new(0, 620, 0, 342)
-ScrollingFrame_2.CanvasPosition = Vector2.new(0, 364)
 
 fakelagv1ultra.Name = "fakelagv1ultra"
 fakelagv1ultra.Parent = ScrollingFrame_2
@@ -1325,27 +1312,27 @@ OK_30.Text = "APPLY"
 OK_30.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_30.TextSize = 20.000
 
-Fps.Name = "Fps"
-Fps.Parent = ScrollingFrame_2
-Fps.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-Fps.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Fps.Position = UDim2.new(0.682687998, 0, 0.696563005, 0)
-Fps.Size = UDim2.new(0, 178, 0, 101)
-Fps.Style = Enum.FrameStyle.RobloxRound
+freecam.Name = "freecam"
+freecam.Parent = ScrollingFrame_2
+freecam.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+freecam.BorderColor3 = Color3.fromRGB(27, 42, 53)
+freecam.Position = UDim2.new(0.0262363553, 0, 0.696551204, 0)
+freecam.Size = UDim2.new(0, 178, 0, 101)
+freecam.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_33.Parent = Fps
+TextLabel_33.Parent = freecam
 TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_33.BackgroundTransparency = 2.000
 TextLabel_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_33.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
 TextLabel_33.Size = UDim2.new(0, 101, 0, 38)
 TextLabel_33.Font = Enum.Font.Cartoon
-TextLabel_33.Text = "Show FPS"
+TextLabel_33.Text = "freecam"
 TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_33.TextSize = 28.000
 
 OK_31.Name = "OK"
-OK_31.Parent = Fps
+OK_31.Parent = freecam
 OK_31.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
 OK_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OK_31.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
@@ -1355,27 +1342,27 @@ OK_31.Text = "APPLY"
 OK_31.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_31.TextSize = 20.000
 
-gamebooster.Name = "gamebooster"
-gamebooster.Parent = ScrollingFrame_2
-gamebooster.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-gamebooster.BorderColor3 = Color3.fromRGB(27, 42, 53)
-gamebooster.Position = UDim2.new(0.350429893, 0, 0.697196186, 0)
-gamebooster.Size = UDim2.new(0, 178, 0, 101)
-gamebooster.Style = Enum.FrameStyle.RobloxRound
+unaimba.Name = "un aim ba"
+unaimba.Parent = ScrollingFrame_2
+unaimba.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
+unaimba.BorderColor3 = Color3.fromRGB(27, 42, 53)
+unaimba.Position = UDim2.new(0.687526703, 0, 0.693530142, 0)
+unaimba.Size = UDim2.new(0, 178, 0, 101)
+unaimba.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_34.Parent = gamebooster
+TextLabel_34.Parent = unaimba
 TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_34.BackgroundTransparency = 2.000
 TextLabel_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_34.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_34.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_34.Position = UDim2.new(0.195705801, 0, -0.00505836401, 0)
+TextLabel_34.Size = UDim2.new(0, 97, 0, 38)
 TextLabel_34.Font = Enum.Font.Cartoon
-TextLabel_34.Text = "Optimize game"
+TextLabel_34.Text = "Universal Aimbot"
 TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_34.TextSize = 28.000
 
 OK_32.Name = "OK"
-OK_32.Parent = gamebooster
+OK_32.Parent = unaimba
 OK_32.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
 OK_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
 OK_32.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
@@ -1385,84 +1372,24 @@ OK_32.Text = "APPLY"
 OK_32.TextColor3 = Color3.fromRGB(255, 255, 255)
 OK_32.TextSize = 20.000
 
-freecam.Name = "freecam"
-freecam.Parent = ScrollingFrame_2
-freecam.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-freecam.BorderColor3 = Color3.fromRGB(27, 42, 53)
-freecam.Position = UDim2.new(0.0262363553, 0, 0.696551204, 0)
-freecam.Size = UDim2.new(0, 178, 0, 101)
-freecam.Style = Enum.FrameStyle.RobloxRound
-
-TextLabel_35.Parent = freecam
-TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_35.BackgroundTransparency = 2.000
-TextLabel_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_35.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_35.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_35.Font = Enum.Font.Cartoon
-TextLabel_35.Text = "freecam"
-TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_35.TextSize = 28.000
-
-OK_33.Name = "OK"
-OK_33.Parent = freecam
-OK_33.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_33.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_33.Size = UDim2.new(0, 104, 0, 41)
-OK_33.Font = Enum.Font.Cartoon
-OK_33.Text = "APPLY"
-OK_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_33.TextSize = 20.000
-
-unaimba.Name = "un aim ba"
-unaimba.Parent = ScrollingFrame_2
-unaimba.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-unaimba.BorderColor3 = Color3.fromRGB(27, 42, 53)
-unaimba.Position = UDim2.new(0.6843009, 0, 0.847290814, 0)
-unaimba.Size = UDim2.new(0, 178, 0, 101)
-unaimba.Style = Enum.FrameStyle.RobloxRound
-
-TextLabel_36.Parent = unaimba
-TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_36.BackgroundTransparency = 2.000
-TextLabel_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_36.Position = UDim2.new(0.195705801, 0, -0.00505836401, 0)
-TextLabel_36.Size = UDim2.new(0, 97, 0, 38)
-TextLabel_36.Font = Enum.Font.Cartoon
-TextLabel_36.Text = "Universal Aimbot"
-TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_36.TextSize = 28.000
-
-OK_34.Name = "OK"
-OK_34.Parent = unaimba
-OK_34.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_34.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_34.Size = UDim2.new(0, 104, 0, 41)
-OK_34.Font = Enum.Font.Cartoon
-OK_34.Text = "APPLY"
-OK_34.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_34.TextSize = 20.000
-
 kick.Name = "kick"
 kick.Parent = ScrollingFrame_2
 kick.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
 kick.BorderColor3 = Color3.fromRGB(27, 42, 53)
-kick.Position = UDim2.new(0.338681728, 0, 0.852505326, 0)
+kick.Position = UDim2.new(0.340294629, 0, 0.695522726, 0)
 kick.Size = UDim2.new(0, 188, 0, 99)
 kick.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_37.Parent = kick
-TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_37.BackgroundTransparency = 2.000
-TextLabel_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_37.Position = UDim2.new(0.101492539, 0, -0.00914294273, 0)
-TextLabel_37.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_37.Font = Enum.Font.Cartoon
-TextLabel_37.Text = "Kick player FE"
-TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_37.TextSize = 28.000
+TextLabel_35.Parent = kick
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 2.000
+TextLabel_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_35.Position = UDim2.new(0.101492539, 0, -0.00914294273, 0)
+TextLabel_35.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_35.Font = Enum.Font.Cartoon
+TextLabel_35.Text = "Kick player FE"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextSize = 28.000
 
 TextBox_4.Parent = kick
 TextBox_4.BackgroundColor3 = Color3.fromRGB(48, 84, 97)
@@ -1474,16 +1401,16 @@ TextBox_4.Text = ""
 TextBox_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox_4.TextSize = 30.000
 
-OK_35.Name = "OK"
-OK_35.Parent = kick
-OK_35.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_35.Position = UDim2.new(0.877594471, 0, 0.451042086, 0)
-OK_35.Size = UDim2.new(0, 44, 0, 41)
-OK_35.Font = Enum.Font.Cartoon
-OK_35.Text = "APPLY"
-OK_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_35.TextSize = 20.000
+OK_33.Name = "OK"
+OK_33.Parent = kick
+OK_33.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_33.Position = UDim2.new(0.877594471, 0, 0.451042086, 0)
+OK_33.Size = UDim2.new(0, 44, 0, 41)
+OK_33.Font = Enum.Font.Cartoon
+OK_33.Text = "APPLY"
+OK_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_33.TextSize = 20.000
 
 p3.Name = "p3"
 p3.Parent = Frame
@@ -1530,29 +1457,29 @@ autoUlt.Position = UDim2.new(0.686183393, 0, 0.0219471361, 0)
 autoUlt.Size = UDim2.new(0, 178, 0, 101)
 autoUlt.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_38.Parent = autoUlt
-TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_38.BackgroundTransparency = 2.000
-TextLabel_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_38.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_38.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_38.Font = Enum.Font.Cartoon
-TextLabel_38.Text = "Auto ult when under 80 hp"
-TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_38.TextScaled = true
-TextLabel_38.TextSize = 28.000
-TextLabel_38.TextWrapped = true
+TextLabel_36.Parent = autoUlt
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 2.000
+TextLabel_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_36.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
+TextLabel_36.Size = UDim2.new(0, 101, 0, 38)
+TextLabel_36.Font = Enum.Font.Cartoon
+TextLabel_36.Text = "Auto ult when under 80 hp"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextScaled = true
+TextLabel_36.TextSize = 28.000
+TextLabel_36.TextWrapped = true
 
-OK_36.Name = "OK"
-OK_36.Parent = autoUlt
-OK_36.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_36.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_36.Size = UDim2.new(0, 104, 0, 41)
-OK_36.Font = Enum.Font.Cartoon
-OK_36.Text = "APPLY"
-OK_36.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_36.TextSize = 20.000
+OK_34.Name = "OK"
+OK_34.Parent = autoUlt
+OK_34.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_34.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_34.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_34.Size = UDim2.new(0, 104, 0, 41)
+OK_34.Font = Enum.Font.Cartoon
+OK_34.Text = "APPLY"
+OK_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_34.TextSize = 20.000
 
 autoUlt2.Name = "autoUlt2"
 autoUlt2.Parent = ScrollingFrame_3
@@ -1562,42 +1489,42 @@ autoUlt2.Position = UDim2.new(0.370054394, 0, 0.0224106554, 0)
 autoUlt2.Size = UDim2.new(0, 178, 0, 101)
 autoUlt2.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_39.Parent = autoUlt2
-TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_39.BackgroundTransparency = 2.000
-TextLabel_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_39.Position = UDim2.new(-0.0242264997, 0, -0.0506247357, 0)
-TextLabel_39.Size = UDim2.new(0, 169, 0, 38)
-TextLabel_39.Font = Enum.Font.Cartoon
-TextLabel_39.Text = "Auto ult when under 30 hp       (DONT TOGGLE 2 OF THEM.)"
-TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_39.TextScaled = true
-TextLabel_39.TextSize = 28.000
-TextLabel_39.TextWrapped = true
+TextLabel_37.Parent = autoUlt2
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 2.000
+TextLabel_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_37.Position = UDim2.new(-0.0242264997, 0, -0.0506247357, 0)
+TextLabel_37.Size = UDim2.new(0, 169, 0, 38)
+TextLabel_37.Font = Enum.Font.Cartoon
+TextLabel_37.Text = "Auto ult when under 30 hp       (DONT TOGGLE 2 OF THEM.)"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextScaled = true
+TextLabel_37.TextSize = 28.000
+TextLabel_37.TextWrapped = true
 
-OK_37.Name = "OK"
-OK_37.Parent = autoUlt2
-OK_37.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_37.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_37.Size = UDim2.new(0, 104, 0, 41)
-OK_37.Font = Enum.Font.Cartoon
-OK_37.Text = "APPLY"
-OK_37.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_37.TextSize = 20.000
+OK_35.Name = "OK"
+OK_35.Parent = autoUlt2
+OK_35.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_35.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_35.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_35.Size = UDim2.new(0, 104, 0, 41)
+OK_35.Font = Enum.Font.Cartoon
+OK_35.Text = "APPLY"
+OK_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_35.TextSize = 20.000
 
-TextLabel_40.Parent = autoUlt2
-TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_40.BackgroundTransparency = 2.000
-TextLabel_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_40.Position = UDim2.new(-0.454655677, 0, 2.69739032, 0)
-TextLabel_40.Size = UDim2.new(0, 362, 0, 40)
-TextLabel_40.Font = Enum.Font.Cartoon
-TextLabel_40.Text = "More coming soon"
-TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_40.TextScaled = true
-TextLabel_40.TextSize = 28.000
-TextLabel_40.TextWrapped = true
+TextLabel_38.Parent = autoUlt2
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 2.000
+TextLabel_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_38.Position = UDim2.new(-0.454655677, 0, 2.69739032, 0)
+TextLabel_38.Size = UDim2.new(0, 362, 0, 40)
+TextLabel_38.Font = Enum.Font.Cartoon
+TextLabel_38.Text = "More coming soon"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.TextScaled = true
+TextLabel_38.TextSize = 28.000
+TextLabel_38.TextWrapped = true
 
 ae.Name = "ae"
 ae.Parent = ScrollingFrame_3
@@ -1607,29 +1534,29 @@ ae.Position = UDim2.new(0.68412739, 0, 0.610569954, 0)
 ae.Size = UDim2.new(0, 178, 0, 101)
 ae.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_41.Parent = ae
-TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_41.BackgroundTransparency = 2.000
-TextLabel_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_41.Position = UDim2.new(0.0612566657, 0, -0.176664442, 0)
-TextLabel_41.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_41.Font = Enum.Font.Cartoon
-TextLabel_41.Text = "teleport 0,0,0"
-TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_41.TextScaled = true
-TextLabel_41.TextSize = 28.000
-TextLabel_41.TextWrapped = true
+TextLabel_39.Parent = ae
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 2.000
+TextLabel_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_39.Position = UDim2.new(0.0612566657, 0, -0.176664442, 0)
+TextLabel_39.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_39.Font = Enum.Font.Cartoon
+TextLabel_39.Text = "teleport 0,0,0"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.TextScaled = true
+TextLabel_39.TextSize = 28.000
+TextLabel_39.TextWrapped = true
 
-OK_38.Name = "OK"
-OK_38.Parent = ae
-OK_38.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_38.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_38.Size = UDim2.new(0, 104, 0, 41)
-OK_38.Font = Enum.Font.Cartoon
-OK_38.Text = "TP"
-OK_38.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_38.TextSize = 20.000
+OK_36.Name = "OK"
+OK_36.Parent = ae
+OK_36.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_36.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_36.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_36.Size = UDim2.new(0, 104, 0, 41)
+OK_36.Font = Enum.Font.Cartoon
+OK_36.Text = "TP"
+OK_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_36.TextSize = 20.000
 
 ae_2.Name = "ae"
 ae_2.Parent = ScrollingFrame_3
@@ -1639,29 +1566,29 @@ ae_2.Position = UDim2.new(0.680825412, 0, 0.199012801, 0)
 ae_2.Size = UDim2.new(0, 178, 0, 101)
 ae_2.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_42.Parent = ae_2
-TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_42.BackgroundTransparency = 2.000
-TextLabel_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_42.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
-TextLabel_42.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_42.Font = Enum.Font.Cartoon
-TextLabel_42.Text = "teleport to death counter room"
-TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_42.TextScaled = true
-TextLabel_42.TextSize = 28.000
-TextLabel_42.TextWrapped = true
+TextLabel_40.Parent = ae_2
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 2.000
+TextLabel_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_40.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
+TextLabel_40.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_40.Font = Enum.Font.Cartoon
+TextLabel_40.Text = "teleport to death counter room"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.TextScaled = true
+TextLabel_40.TextSize = 28.000
+TextLabel_40.TextWrapped = true
 
-OK_39.Name = "OK"
-OK_39.Parent = ae_2
-OK_39.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_39.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_39.Size = UDim2.new(0, 104, 0, 41)
-OK_39.Font = Enum.Font.Cartoon
-OK_39.Text = "TP"
-OK_39.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_39.TextSize = 20.000
+OK_37.Name = "OK"
+OK_37.Parent = ae_2
+OK_37.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_37.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_37.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_37.Size = UDim2.new(0, 104, 0, 41)
+OK_37.Font = Enum.Font.Cartoon
+OK_37.Text = "TP"
+OK_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_37.TextSize = 20.000
 
 disablean.Name = "disablean"
 disablean.Parent = ScrollingFrame_3
@@ -1671,29 +1598,29 @@ disablean.Position = UDim2.new(0.367439568, 0, 0.187316895, 0)
 disablean.Size = UDim2.new(0, 178, 0, 101)
 disablean.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_43.Parent = disablean
-TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_43.BackgroundTransparency = 2.000
-TextLabel_43.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_43.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
-TextLabel_43.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_43.Font = Enum.Font.Cartoon
-TextLabel_43.Text = "disable ur character animations"
-TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_43.TextScaled = true
-TextLabel_43.TextSize = 28.000
-TextLabel_43.TextWrapped = true
+TextLabel_41.Parent = disablean
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 2.000
+TextLabel_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_41.Position = UDim2.new(-0.000729507301, 0, -0.229502305, 0)
+TextLabel_41.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_41.Font = Enum.Font.Cartoon
+TextLabel_41.Text = "disable ur character animations"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.TextScaled = true
+TextLabel_41.TextSize = 28.000
+TextLabel_41.TextWrapped = true
 
-OK_40.Name = "OK"
-OK_40.Parent = disablean
-OK_40.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_40.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_40.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_40.Size = UDim2.new(0, 104, 0, 41)
-OK_40.Font = Enum.Font.Cartoon
-OK_40.Text = "APPLY"
-OK_40.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_40.TextSize = 20.000
+OK_38.Name = "OK"
+OK_38.Parent = disablean
+OK_38.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_38.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_38.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_38.Size = UDim2.new(0, 104, 0, 41)
+OK_38.Font = Enum.Font.Cartoon
+OK_38.Text = "APPLY"
+OK_38.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_38.TextSize = 20.000
 
 ae_3.Name = "ae"
 ae_3.Parent = ScrollingFrame_3
@@ -1703,111 +1630,42 @@ ae_3.Position = UDim2.new(0.0540537201, 0, 0.187316895, 0)
 ae_3.Size = UDim2.new(0, 178, 0, 101)
 ae_3.Style = Enum.FrameStyle.RobloxRound
 
-TextLabel_44.Parent = ae_3
-TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_44.BackgroundTransparency = 2.000
-TextLabel_44.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_44.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
-TextLabel_44.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_44.Font = Enum.Font.Cartoon
-TextLabel_44.Text = "teleport to atomic slash room"
-TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_44.TextScaled = true
-TextLabel_44.TextSize = 28.000
-TextLabel_44.TextWrapped = true
+TextLabel_42.Parent = ae_3
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 2.000
+TextLabel_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_42.Position = UDim2.new(0.06113391, 0, -0.104036614, 0)
+TextLabel_42.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_42.Font = Enum.Font.Cartoon
+TextLabel_42.Text = "teleport to atomic slash room"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.TextScaled = true
+TextLabel_42.TextSize = 28.000
+TextLabel_42.TextWrapped = true
 
-OK_41.Name = "OK"
-OK_41.Parent = ae_3
-OK_41.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_41.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_41.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_41.Size = UDim2.new(0, 104, 0, 41)
-OK_41.Font = Enum.Font.Cartoon
-OK_41.Text = "TP"
-OK_41.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_41.TextSize = 20.000
+OK_39.Name = "OK"
+OK_39.Parent = ae_3
+OK_39.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
+OK_39.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OK_39.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
+OK_39.Size = UDim2.new(0, 104, 0, 41)
+OK_39.Font = Enum.Font.Cartoon
+OK_39.Text = "TP"
+OK_39.TextColor3 = Color3.fromRGB(255, 255, 255)
+OK_39.TextSize = 20.000
 
-TextLabel_45.Parent = ae_3
-TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_45.BackgroundTransparency = 2.000
-TextLabel_45.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_45.Position = UDim2.new(0.10058251, 0, 0.318385065, 0)
-TextLabel_45.Size = UDim2.new(0, 152, 0, 59)
-TextLabel_45.Font = Enum.Font.Cartoon
-TextLabel_45.Text = ""
-TextLabel_45.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_45.TextScaled = true
-TextLabel_45.TextSize = 28.000
-TextLabel_45.TextWrapped = true
-
-p4.Name = "p4"
-p4.Parent = Frame
-p4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-p4.BackgroundTransparency = 0.600
-p4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-p4.BorderSizePixel = 0
-p4.Position = UDim2.new(0, 0, 0.562945366, 0)
-p4.Size = UDim2.new(0, 60, 0, 50)
-p4.ZIndex = 2
-p4.Font = Enum.Font.SourceSans
-p4.Text = "page 4 bloxfruits"
-p4.TextColor3 = Color3.fromRGB(255, 255, 255)
-p4.TextScaled = true
-p4.TextSize = 14.000
-p4.TextWrapped = true
-
-UICorner_6.Parent = p4
-
-page4.Name = "page4"
-page4.Parent = Frame
-page4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-page4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-page4.BorderSizePixel = 0
-page4.Position = UDim2.new(0.0898681656, 0, 0.118764848, 0)
-page4.Size = UDim2.new(0, 635, 0, 353)
-page4.Visible = false
-page4.ZIndex = 4
-
-ScrollingFrame_4.Parent = page4
-ScrollingFrame_4.Active = true
-ScrollingFrame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame_4.BackgroundTransparency = 1.000
-ScrollingFrame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame_4.BorderSizePixel = 0
-ScrollingFrame_4.Position = UDim2.new(0, 0, 4.32260308e-08, 0)
-ScrollingFrame_4.Size = UDim2.new(0, 620, 0, 342)
-
-BF_selfkickfromadmins.Name = "BF_selfkickfromadmins"
-BF_selfkickfromadmins.Parent = ScrollingFrame_4
-BF_selfkickfromadmins.BackgroundColor3 = Color3.fromRGB(255, 10, 14)
-BF_selfkickfromadmins.BorderColor3 = Color3.fromRGB(27, 42, 53)
-BF_selfkickfromadmins.Position = UDim2.new(0.686183393, 0, 0.0219471361, 0)
-BF_selfkickfromadmins.Size = UDim2.new(0, 178, 0, 101)
-BF_selfkickfromadmins.Style = Enum.FrameStyle.RobloxRound
-
-TextLabel_46.Parent = BF_selfkickfromadmins
-TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_46.BackgroundTransparency = 2.000
-TextLabel_46.BorderColor3 = Color3.fromRGB(27, 42, 53)
-TextLabel_46.Position = UDim2.new(0.194469661, 0, -0.00340452278, 0)
-TextLabel_46.Size = UDim2.new(0, 101, 0, 38)
-TextLabel_46.Font = Enum.Font.Cartoon
-TextLabel_46.Text = "Self-Panic kick when Admin/staff join"
-TextLabel_46.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_46.TextScaled = true
-TextLabel_46.TextSize = 28.000
-TextLabel_46.TextWrapped = true
-
-OK_42.Name = "OK"
-OK_42.Parent = BF_selfkickfromadmins
-OK_42.BackgroundColor3 = Color3.fromRGB(39, 50, 57)
-OK_42.BorderColor3 = Color3.fromRGB(27, 42, 53)
-OK_42.Position = UDim2.new(0.170153141, 0, 0.47766307, 0)
-OK_42.Size = UDim2.new(0, 104, 0, 41)
-OK_42.Font = Enum.Font.Cartoon
-OK_42.Text = "APPLY"
-OK_42.TextColor3 = Color3.fromRGB(255, 255, 255)
-OK_42.TextSize = 20.000
+TextLabel_43.Parent = ae_3
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 2.000
+TextLabel_43.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_43.Position = UDim2.new(0.10058251, 0, 0.318385065, 0)
+TextLabel_43.Size = UDim2.new(0, 152, 0, 59)
+TextLabel_43.Font = Enum.Font.Cartoon
+TextLabel_43.Text = ""
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.TextScaled = true
+TextLabel_43.TextSize = 28.000
+TextLabel_43.TextWrapped = true
 
 guiopen.Name = "guiopen"
 guiopen.Parent = Main
@@ -1821,24 +1679,24 @@ guiopen.ZIndex = 999999999
 guiopen.Image = "http://www.roblox.com/asset/?id=6820357899"
 guiopen.ImageTransparency = 0.300
 
-TextLabel_47.Parent = guiopen
-TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_47.BackgroundTransparency = 1.000
-TextLabel_47.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_47.BorderSizePixel = 0
-TextLabel_47.Position = UDim2.new(0.126374543, 0, 0.126376748, 0)
-TextLabel_47.Size = UDim2.new(0, 54, 0, 54)
-TextLabel_47.ZIndex = -1
-TextLabel_47.Font = Enum.Font.SourceSans
-TextLabel_47.Text = "Untitled admin script hack frfr"
-TextLabel_47.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_47.TextScaled = true
-TextLabel_47.TextSize = 14.000
-TextLabel_47.TextWrapped = true
+TextLabel_44.Parent = guiopen
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_44.BorderSizePixel = 0
+TextLabel_44.Position = UDim2.new(0.126374543, 0, 0.126376748, 0)
+TextLabel_44.Size = UDim2.new(0, 54, 0, 54)
+TextLabel_44.ZIndex = -1
+TextLabel_44.Font = Enum.Font.SourceSans
+TextLabel_44.Text = "Untitled admin script hack frfr"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.TextScaled = true
+TextLabel_44.TextSize = 14.000
+TextLabel_44.TextWrapped = true
 
 -- Scripts:
 
-local function TOLYHMD_fake_script() -- Frame.Drag 
+local function DLFL_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1881,8 +1739,8 @@ local function TOLYHMD_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(TOLYHMD_fake_script)()
-local function TYWPPW_fake_script() -- OK.LocalScript 
+coroutine.wrap(DLFL_fake_script)()
+local function SZTANFQ_fake_script() -- OK.LocalScript 
 	local script = Instance.new('LocalScript', OK)
 
 	local UIS = game:GetService("UserInputService")
@@ -1936,8 +1794,8 @@ local function TYWPPW_fake_script() -- OK.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(TYWPPW_fake_script)()
-local function TLQARSC_fake_script() -- OK_2.LocalScript 
+coroutine.wrap(SZTANFQ_fake_script)()
+local function OEIP_fake_script() -- OK_2.LocalScript 
 	local script = Instance.new('LocalScript', OK_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1953,8 +1811,8 @@ local function TLQARSC_fake_script() -- OK_2.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(TLQARSC_fake_script)()
-local function XYWYBI_fake_script() -- OK_3.LocalScript 
+coroutine.wrap(OEIP_fake_script)()
+local function MANPO_fake_script() -- OK_3.LocalScript 
 	local script = Instance.new('LocalScript', OK_3)
 
 	local Players = game:GetService("Players")
@@ -1980,8 +1838,8 @@ local function XYWYBI_fake_script() -- OK_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(XYWYBI_fake_script)()
-local function KVJQ_fake_script() -- OK_4.LocalScript 
+coroutine.wrap(MANPO_fake_script)()
+local function NNQJXS_fake_script() -- OK_4.LocalScript 
 	local script = Instance.new('LocalScript', OK_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1990,8 +1848,8 @@ local function KVJQ_fake_script() -- OK_4.LocalScript
 	lightining.TimeOfDay = 14
 	end)
 end
-coroutine.wrap(KVJQ_fake_script)()
-local function MJGPQR_fake_script() -- OK_5.LocalScript 
+coroutine.wrap(NNQJXS_fake_script)()
+local function AYUXT_fake_script() -- OK_5.LocalScript 
 	local script = Instance.new('LocalScript', OK_5)
 
 	local Players = game:GetService("Players")
@@ -2059,8 +1917,8 @@ local function MJGPQR_fake_script() -- OK_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(MJGPQR_fake_script)()
-local function MOXQMLK_fake_script() -- OK_6.LocalScript 
+coroutine.wrap(AYUXT_fake_script)()
+local function NDTOFE_fake_script() -- OK_6.LocalScript 
 	local script = Instance.new('LocalScript', OK_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2070,8 +1928,8 @@ local function MOXQMLK_fake_script() -- OK_6.LocalScript
 		hum.JumpPower = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(MOXQMLK_fake_script)()
-local function XMCQ_fake_script() -- OK_7.LocalScript 
+coroutine.wrap(NDTOFE_fake_script)()
+local function GMQTEZ_fake_script() -- OK_7.LocalScript 
 	local script = Instance.new('LocalScript', OK_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2079,8 +1937,8 @@ local function XMCQ_fake_script() -- OK_7.LocalScript
 		lightining.TimeOfDay = 0
 	end)
 end
-coroutine.wrap(XMCQ_fake_script)()
-local function UZVWUDO_fake_script() -- OK_8.LocalScript 
+coroutine.wrap(GMQTEZ_fake_script)()
+local function ZRYELDI_fake_script() -- OK_8.LocalScript 
 	local script = Instance.new('LocalScript', OK_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2098,8 +1956,8 @@ local function UZVWUDO_fake_script() -- OK_8.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(UZVWUDO_fake_script)()
-local function ESWJI_fake_script() -- OK_9.LocalScript 
+coroutine.wrap(ZRYELDI_fake_script)()
+local function FPUOXW_fake_script() -- OK_9.LocalScript 
 	local script = Instance.new('LocalScript', OK_9)
 
 	local Players = game:GetService("Players")
@@ -2128,8 +1986,8 @@ local function ESWJI_fake_script() -- OK_9.LocalScript
 	
 	
 end
-coroutine.wrap(ESWJI_fake_script)()
-local function SWJXBNQ_fake_script() -- OK_10.LocalScript 
+coroutine.wrap(FPUOXW_fake_script)()
+local function IIPY_fake_script() -- OK_10.LocalScript 
 	local script = Instance.new('LocalScript', OK_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2139,8 +1997,8 @@ local function SWJXBNQ_fake_script() -- OK_10.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(SWJXBNQ_fake_script)()
-local function YORQY_fake_script() -- OK_11.LocalScript 
+coroutine.wrap(IIPY_fake_script)()
+local function ZRVGSIZ_fake_script() -- OK_11.LocalScript 
 	local script = Instance.new('LocalScript', OK_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2158,8 +2016,8 @@ local function YORQY_fake_script() -- OK_11.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(YORQY_fake_script)()
-local function VLGH_fake_script() -- OK_12.LocalScript 
+coroutine.wrap(ZRVGSIZ_fake_script)()
+local function OQCMWKJ_fake_script() -- OK_12.LocalScript 
 	local script = Instance.new('LocalScript', OK_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2176,8 +2034,8 @@ local function VLGH_fake_script() -- OK_12.LocalScript
 		velocity.Name = "Spinbot" 
 	end)
 end
-coroutine.wrap(VLGH_fake_script)()
-local function DHWH_fake_script() -- OK_13.LocalScript 
+coroutine.wrap(OQCMWKJ_fake_script)()
+local function GJIH_fake_script() -- OK_13.LocalScript 
 	local script = Instance.new('LocalScript', OK_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2191,8 +2049,8 @@ local function DHWH_fake_script() -- OK_13.LocalScript
 		
 	end)
 end
-coroutine.wrap(DHWH_fake_script)()
-local function QOFXTC_fake_script() -- OK_14.LocalScript 
+coroutine.wrap(GJIH_fake_script)()
+local function PQXGRCS_fake_script() -- OK_14.LocalScript 
 	local script = Instance.new('LocalScript', OK_14)
 
 	local Players = game:GetService("Players")
@@ -2230,8 +2088,8 @@ local function QOFXTC_fake_script() -- OK_14.LocalScript
 	end)
 	
 end
-coroutine.wrap(QOFXTC_fake_script)()
-local function WMMFM_fake_script() -- OK_15.LocalScript 
+coroutine.wrap(PQXGRCS_fake_script)()
+local function APZN_fake_script() -- OK_15.LocalScript 
 	local script = Instance.new('LocalScript', OK_15)
 
 	local Players = game:GetService("Players")
@@ -2249,8 +2107,8 @@ local function WMMFM_fake_script() -- OK_15.LocalScript
 	end)
 	
 end
-coroutine.wrap(WMMFM_fake_script)()
-local function OZSDFCM_fake_script() -- OK_16.LocalScript 
+coroutine.wrap(APZN_fake_script)()
+local function WUIJCVE_fake_script() -- OK_16.LocalScript 
 	local script = Instance.new('LocalScript', OK_16)
 
 	local button = script.Parent
@@ -2267,8 +2125,8 @@ local function OZSDFCM_fake_script() -- OK_16.LocalScript
 	end)
 	
 end
-coroutine.wrap(OZSDFCM_fake_script)()
-local function GXUJSNM_fake_script() -- OK_17.LocalScript 
+coroutine.wrap(WUIJCVE_fake_script)()
+local function GPKV_fake_script() -- OK_17.LocalScript 
 	local script = Instance.new('LocalScript', OK_17)
 
 	local Players = game:GetService("Players")
@@ -2286,8 +2144,8 @@ local function GXUJSNM_fake_script() -- OK_17.LocalScript
 	end)
 	
 end
-coroutine.wrap(GXUJSNM_fake_script)()
-local function GCZQJ_fake_script() -- OK_18.LocalScript 
+coroutine.wrap(GPKV_fake_script)()
+local function WUZD_fake_script() -- OK_18.LocalScript 
 	local script = Instance.new('LocalScript', OK_18)
 
 	local Players = game:GetService("Players")
@@ -2350,8 +2208,8 @@ local function GCZQJ_fake_script() -- OK_18.LocalScript
 	end)
 	
 end
-coroutine.wrap(GCZQJ_fake_script)()
-local function OIZC_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(WUZD_fake_script)()
+local function GITDJER_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', main_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2359,15 +2217,15 @@ local function OIZC_fake_script() -- main_2.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(OIZC_fake_script)()
-local function EXHMN_fake_script() -- hi.LocalScript 
+coroutine.wrap(GITDJER_fake_script)()
+local function UCRFD_fake_script() -- hi.LocalScript 
 	local script = Instance.new('LocalScript', hi)
 
 	
 	script.Parent.Text = "(Hello, ".. game.Players.LocalPlayer.DisplayName.. ")"
 end
-coroutine.wrap(EXHMN_fake_script)()
-local function KJCF_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(UCRFD_fake_script)()
+local function SCOS_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', Xclose)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2376,8 +2234,8 @@ local function KJCF_fake_script() -- Xclose.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(KJCF_fake_script)()
-local function DMETPMQ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(SCOS_fake_script)()
+local function QNRKB_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2385,8 +2243,8 @@ local function DMETPMQ_fake_script() -- p2.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(DMETPMQ_fake_script)()
-local function LMQL_fake_script() -- OK_19.LocalScript 
+coroutine.wrap(QNRKB_fake_script)()
+local function CGHJ_fake_script() -- OK_19.LocalScript 
 	local script = Instance.new('LocalScript', OK_19)
 
 	local button = script.Parent
@@ -2438,8 +2296,8 @@ local function LMQL_fake_script() -- OK_19.LocalScript
 	end)
 	
 end
-coroutine.wrap(LMQL_fake_script)()
-local function DDAOE_fake_script() -- OK_20.LocalScript 
+coroutine.wrap(CGHJ_fake_script)()
+local function CPKI_fake_script() -- OK_20.LocalScript 
 	local script = Instance.new('LocalScript', OK_20)
 
 	local button = script.Parent
@@ -2491,8 +2349,8 @@ local function DDAOE_fake_script() -- OK_20.LocalScript
 	end)
 	
 end
-coroutine.wrap(DDAOE_fake_script)()
-local function KCKWJ_fake_script() -- OK_21.LocalScript 
+coroutine.wrap(CPKI_fake_script)()
+local function SZDPOVN_fake_script() -- OK_21.LocalScript 
 	local script = Instance.new('LocalScript', OK_21)
 
 	local button = script.Parent
@@ -2544,8 +2402,8 @@ local function KCKWJ_fake_script() -- OK_21.LocalScript
 	end)
 	
 end
-coroutine.wrap(KCKWJ_fake_script)()
-local function AXLEJ_fake_script() -- OK_22.LocalScript 
+coroutine.wrap(SZDPOVN_fake_script)()
+local function YOFTMAA_fake_script() -- OK_22.LocalScript 
 	local script = Instance.new('LocalScript', OK_22)
 
 	local button = script.Parent
@@ -2589,8 +2447,8 @@ local function AXLEJ_fake_script() -- OK_22.LocalScript
 	end)
 	
 end
-coroutine.wrap(AXLEJ_fake_script)()
-local function MDNAC_fake_script() -- OK_23.LocalScript 
+coroutine.wrap(YOFTMAA_fake_script)()
+local function DTNM_fake_script() -- OK_23.LocalScript 
 	local script = Instance.new('LocalScript', OK_23)
 
 	local button = script.Parent
@@ -2642,8 +2500,8 @@ local function MDNAC_fake_script() -- OK_23.LocalScript
 	end)
 	
 end
-coroutine.wrap(MDNAC_fake_script)()
-local function HEYVOV_fake_script() -- OK_24.LocalScript 
+coroutine.wrap(DTNM_fake_script)()
+local function EWKKW_fake_script() -- OK_24.LocalScript 
 	local script = Instance.new('LocalScript', OK_24)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2778,8 +2636,8 @@ local function HEYVOV_fake_script() -- OK_24.LocalScript
 	
 	
 end
-coroutine.wrap(HEYVOV_fake_script)()
-local function ZBRS_fake_script() -- OK_25.LocalScript 
+coroutine.wrap(EWKKW_fake_script)()
+local function BOEWMO_fake_script() -- OK_25.LocalScript 
 	local script = Instance.new('LocalScript', OK_25)
 
 	
@@ -2813,8 +2671,8 @@ local function ZBRS_fake_script() -- OK_25.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZBRS_fake_script)()
-local function QUBEHV_fake_script() -- OK_26.LocalScript 
+coroutine.wrap(BOEWMO_fake_script)()
+local function LNDG_fake_script() -- OK_26.LocalScript 
 	local script = Instance.new('LocalScript', OK_26)
 
 	local button = script.Parent
@@ -2837,8 +2695,8 @@ local function QUBEHV_fake_script() -- OK_26.LocalScript
 	end)
 	
 end
-coroutine.wrap(QUBEHV_fake_script)()
-local function KIJY_fake_script() -- OK_27.LocalScript 
+coroutine.wrap(LNDG_fake_script)()
+local function PXKK_fake_script() -- OK_27.LocalScript 
 	local script = Instance.new('LocalScript', OK_27)
 
 	local button = script.Parent
@@ -2861,8 +2719,8 @@ local function KIJY_fake_script() -- OK_27.LocalScript
 	end)
 	
 end
-coroutine.wrap(KIJY_fake_script)()
-local function EVMD_fake_script() -- OK_28.LocalScript 
+coroutine.wrap(PXKK_fake_script)()
+local function JDQDBL_fake_script() -- OK_28.LocalScript 
 	local script = Instance.new('LocalScript', OK_28)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2874,8 +2732,8 @@ local function EVMD_fake_script() -- OK_28.LocalScript
 		players.LocalPlayer.Character:MoveTo(targetPlayer.Character.HumanoidRootPart.Position)
 	end)
 end
-coroutine.wrap(EVMD_fake_script)()
-local function UIKRCM_fake_script() -- OK_29.LocalScript 
+coroutine.wrap(JDQDBL_fake_script)()
+local function YEXMXW_fake_script() -- OK_29.LocalScript 
 	local script = Instance.new('LocalScript', OK_29)
 
 	local button = script.Parent -- the TextButton
@@ -2888,8 +2746,8 @@ local function UIKRCM_fake_script() -- OK_29.LocalScript
 	
 	
 end
-coroutine.wrap(UIKRCM_fake_script)()
-local function MONXIT_fake_script() -- OK_30.LocalScript 
+coroutine.wrap(YEXMXW_fake_script)()
+local function TQPGYRA_fake_script() -- OK_30.LocalScript 
 	local script = Instance.new('LocalScript', OK_30)
 
 	local button = script.Parent -- The TextButton
@@ -2911,139 +2769,9 @@ local function MONXIT_fake_script() -- OK_30.LocalScript
 	
 	
 end
-coroutine.wrap(MONXIT_fake_script)()
-local function SKWP_fake_script() -- OK_31.LocalScript 
+coroutine.wrap(TQPGYRA_fake_script)()
+local function AZPFD_fake_script() -- OK_31.LocalScript 
 	local script = Instance.new('LocalScript', OK_31)
-
-	local button = script.Parent -- the TextButton
-	
-	button.MouseButton1Click:Connect(function()
-		-- Gui to Lua
-		-- Version: 3.2
-	
-		-- Instances:
-	
-		local FPSGui = Instance.new("ScreenGui")
-		local TextLabel = Instance.new("TextLabel")
-	
-		--Properties:
-	
-		FPSGui.Name = "FPSGui"
-		FPSGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-		FPSGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-	
-		TextLabel.Parent = FPSGui
-		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		TextLabel.BackgroundTransparency = 1.000
-		TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
-		TextLabel.Position = UDim2.new(0, 699, 0, 0)
-		TextLabel.Size = UDim2.new(0.100000001, 0, 0.0500000007, 0)
-		TextLabel.Font = Enum.Font.SourceSans
-		TextLabel.Text = "0 FPS"
-		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-		TextLabel.TextScaled = true
-		TextLabel.TextSize = 14.000
-		TextLabel.TextStrokeTransparency = 0.000
-		TextLabel.TextWrapped = true
-		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
-	
-		-- Scripts:
-	
-		local function NDYYV_fake_script() -- TextLabel.LocalScript 
-			local script = Instance.new('LocalScript', TextLabel)
-	
-			local RS = game:GetService("RunService")
-			local frames = 0
-	
-			RS.RenderStepped:Connect(function()
-				frames = frames + 1
-			end)
-	
-			while wait(1) do
-				script.Parent.Text = frames .. " FPS"
-				frames = 0
-			end
-		end
-		coroutine.wrap(NDYYV_fake_script)()
-	
-	end)
-	
-	
-end
-coroutine.wrap(SKWP_fake_script)()
-local function RKAPW_fake_script() -- OK_32.LocalScript 
-	local script = Instance.new('LocalScript', OK_32)
-
-	local button = script.Parent -- the TextButton
-	
-	button.MouseButton1Click:Connect(function()
-	
-		-- Deletes all Decals, Textures, and GUI Images (ImageLabel, ImageButton) on the client
-	
-		local function deleteInstancesOfClass(parent, classNames)
-			for _, obj in parent:GetDescendants() do
-				for _, className in classNames do
-					if obj:IsA(className) then
-						obj:Destroy()
-					end
-				end
-			end
-		end
-		-- Remove Decals and Textures from Workspace
-		deleteInstancesOfClass(game.Workspace, {"Decal", "Texture", "ParticleEmitter", "Smoke"})
-	
-	
-		-- Optionally, remove Decals/Textures from other services if needed & remove sky 
-	 deleteInstancesOfClass(game.Lighting, {"Decal", "Texture"})
-		deleteInstancesOfClass(game.ReplicatedStorage, {"Decal", "Texture"})
-		local lightning = game.Lighting:FindFirstChildOfClass('Sky')
-		local re = game.Lighting:FindFirstChildOfClass("BloomEffect")
-		local er = game.Lighting:FindFirstChildOfClass("DepthOfFieldEffect")
-		local rer = game.Lighting:FindFirstChildOfClass("SunRaysEffect")
-		lightning:Destroy()
-		re:Destroy()
-		er:Destroy()
-		rer:Destroy()
-		
-		for _, obj in workspace:GetDescendants() do
-			if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
-				obj:Destroy()
-			end
-		end
-		local lighting = game:GetService("Lighting")
-		local effects = {"BloomEffect", "BlurEffect", "DepthOfFieldEffect", "SunRaysEffect", "ColorCorrectionEffect", "Atmosphere"}
-		for _, effectName in effects do
-			local effect = lighting:FindFirstChildOfClass(effectName)
-			while effect do
-				effect:Destroy()
-				effect = lighting:FindFirstChildOfClass(effectName)
-			end
-		end
-		local terrain = workspace:FindFirstChildOfClass("Terrain")
-		if terrain then
-			terrain.Decoration = false
-			terrain.WaterTransparency = 0
-			terrain.WaterReflectance = 0
-			terrain.WaterWaveSize = 0
-			terrain.WaterWaveSpeed = 0
-		end
-		for _, obj in workspace:GetChildrens() do
-			if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
-				obj:Destroy()
-			end
-			for _, obj in workspace:GetParents() do
-				if obj:IsA("ParticleEmitter") or obj:IsA("Trail") then
-					obj:Destroy()
-				end
-			end
-		end
-	end)
-	
-	
-end
-coroutine.wrap(RKAPW_fake_script)()
-local function KNSIS_fake_script() -- OK_33.LocalScript 
-	local script = Instance.new('LocalScript', OK_33)
 
 	local button = script.Parent -- the TextButton
 	
@@ -3885,9 +3613,9 @@ local function KNSIS_fake_script() -- OK_33.LocalScript
 	
 	
 end
-coroutine.wrap(KNSIS_fake_script)()
-local function DHCCLX_fake_script() -- OK_34.LocalScript 
-	local script = Instance.new('LocalScript', OK_34)
+coroutine.wrap(AZPFD_fake_script)()
+local function FGZM_fake_script() -- OK_32.LocalScript 
+	local script = Instance.new('LocalScript', OK_32)
 
 	local button = script.Parent -- the TextButton
 	
@@ -4047,9 +3775,9 @@ local function DHCCLX_fake_script() -- OK_34.LocalScript
 	
 	
 end
-coroutine.wrap(DHCCLX_fake_script)()
-local function TRYUXK_fake_script() -- OK_35.LocalScript 
-	local script = Instance.new('LocalScript', OK_35)
+coroutine.wrap(FGZM_fake_script)()
+local function EYHKF_fake_script() -- OK_33.LocalScript 
+	local script = Instance.new('LocalScript', OK_33)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local username = script.Parent.TextBox.Text
@@ -4102,8 +3830,8 @@ local function TRYUXK_fake_script() -- OK_35.LocalScript
 	end)
 	
 end
-coroutine.wrap(TRYUXK_fake_script)()
-local function CDHIBR_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON) 
+coroutine.wrap(EYHKF_fake_script)()
+local function ZTZIEDN_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON) 
 	local script = Instance.new('LocalScript', p3)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -4111,9 +3839,9 @@ local function CDHIBR_fake_script() -- p3.Open/Close (PUT ME IN A TEXTBUTTON)
 	end)
 	                
 end
-coroutine.wrap(CDHIBR_fake_script)()
-local function JZBLSCY_fake_script() -- OK_36.LocalScript 
-	local script = Instance.new('LocalScript', OK_36)
+coroutine.wrap(ZTZIEDN_fake_script)()
+local function WLPF_fake_script() -- OK_34.LocalScript 
+	local script = Instance.new('LocalScript', OK_34)
 
 	-- References
 	local player = game:GetService("Players").LocalPlayer
@@ -4156,9 +3884,9 @@ local function JZBLSCY_fake_script() -- OK_36.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JZBLSCY_fake_script)()
-local function NJMUY_fake_script() -- OK_37.LocalScript 
-	local script = Instance.new('LocalScript', OK_37)
+coroutine.wrap(WLPF_fake_script)()
+local function ZOPW_fake_script() -- OK_35.LocalScript 
+	local script = Instance.new('LocalScript', OK_35)
 
 	-- References
 	local player = game:GetService("Players").LocalPlayer
@@ -4201,9 +3929,9 @@ local function NJMUY_fake_script() -- OK_37.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NJMUY_fake_script)()
-local function GLCGNVZ_fake_script() -- OK_38.LocalScript 
-	local script = Instance.new('LocalScript', OK_38)
+coroutine.wrap(ZOPW_fake_script)()
+local function DTVML_fake_script() -- OK_36.LocalScript 
+	local script = Instance.new('LocalScript', OK_36)
 
 	local button = script.Parent
 	
@@ -4220,9 +3948,9 @@ local function GLCGNVZ_fake_script() -- OK_38.LocalScript
 	end)
 	
 end
-coroutine.wrap(GLCGNVZ_fake_script)()
-local function WPBHJZ_fake_script() -- OK_39.LocalScript 
-	local script = Instance.new('LocalScript', OK_39)
+coroutine.wrap(DTVML_fake_script)()
+local function BCPINQ_fake_script() -- OK_37.LocalScript 
+	local script = Instance.new('LocalScript', OK_37)
 
 	local button = script.Parent
 	
@@ -4240,9 +3968,9 @@ local function WPBHJZ_fake_script() -- OK_39.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WPBHJZ_fake_script)()
-local function IISUD_fake_script() -- OK_40.LocalScript 
-	local script = Instance.new('LocalScript', OK_40)
+coroutine.wrap(BCPINQ_fake_script)()
+local function FXVYEG_fake_script() -- OK_38.LocalScript 
+	local script = Instance.new('LocalScript', OK_38)
 
 	local button = script.Parent
 	local player = game:GetService("Players").LocalPlayer
@@ -4270,9 +3998,9 @@ local function IISUD_fake_script() -- OK_40.LocalScript
 	end)
 	
 end
-coroutine.wrap(IISUD_fake_script)()
-local function OEHI_fake_script() -- OK_41.LocalScript 
-	local script = Instance.new('LocalScript', OK_41)
+coroutine.wrap(FXVYEG_fake_script)()
+local function FONVVNZ_fake_script() -- OK_39.LocalScript 
+	local script = Instance.new('LocalScript', OK_39)
 
 	local button = script.Parent
 	
@@ -4290,52 +4018,8 @@ local function OEHI_fake_script() -- OK_41.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OEHI_fake_script)()
-local function GFKMQU_fake_script() -- p4.Open/Close (PUT ME IN A TEXTBUTTON) 
-	local script = Instance.new('LocalScript', p4)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.page4.Visible = not script.Parent.Parent.page4.Visible
-	end)
-	                
-end
-coroutine.wrap(GFKMQU_fake_script)()
-local function NAFGSYE_fake_script() -- OK_42.LocalScript 
-	local script = Instance.new('LocalScript', OK_42)
-
-	local button = script.Parent -- The button this script is inside
-	local Players = game:GetService("Players")
-	local LocalPlayer = Players.LocalPlayer
-	
-	
-	local kickmanager12 = {
-		"Uzoth",  
-		"EnyuZee", 
-		"mygame43",      
-		"Uzi_London",
-		"rip_indra",
-		"Zioles",
-		"Areuhere100",
-		"Fudd10",
-	}
-	
-	button.MouseButton1Click:Connect(function()
-		-- Check all players in the game
-		for _, player in ipairs(Players:GetPlayers()) do
-			-- Compare each player's name against the KICK_LIST (case-insensitive)
-			for _, username in ipairs(kickmanager12) do
-				if player.Name:lower() == username:lower() then
-					LocalPlayer:Kick("🚨 " .. username .. " joined! Reason kick: a staff member or high rank that has ADMIN on this game has joined. ")
-					print("DEV OR MOD OR ADMIN WITH THE USERNAME:".. username .. "    HAS JOINED... PANIC KICK!!")
-					return -- Exit after kicking
-				end
-			end
-		end
-		print("☑️✅☑️")
-	end)
-end
-coroutine.wrap(NAFGSYE_fake_script)()
-local function NFHO_fake_script() -- guiopen.oc 
+coroutine.wrap(FONVVNZ_fake_script)()
+local function XQJWWQB_fake_script() -- guiopen.oc 
 	local script = Instance.new('LocalScript', guiopen)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -4343,4 +4027,4 @@ local function NFHO_fake_script() -- guiopen.oc
 	end)
 	                
 end
-coroutine.wrap(NFHO_fake_script)()
+coroutine.wrap(XQJWWQB_fake_script)()
